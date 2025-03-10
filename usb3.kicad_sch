@@ -5,10 +5,10 @@
 	(uuid "0ca904d3-376d-4528-b265-7fea6c1f721d")
 	(paper "A3")
 	(title_block
-		(title "Jetson Carrier Board")
-		(date "2024-07-05")
-		(rev "v1")
-		(company "Argus-1 Cubesat")
+		(title "Argus Carrierboard")
+		(date "2025-03-10")
+		(rev "v2.0")
+		(company "Carnegie Mellon University")
 		(comment 1 "www.antmicro.com")
 		(comment 2 "N. Khera")
 	)
@@ -8455,7 +8455,6 @@
 	)
 	(label "USBC1_ISC_SCL"
 		(at 132.08 175.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8466,7 +8465,6 @@
 	)
 	(label "USBC1_RX1_P"
 		(at 177.8 157.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8477,7 +8475,6 @@
 	)
 	(label "USBC1_ISET"
 		(at 251.46 90.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8488,7 +8485,6 @@
 	)
 	(label "USBC1_I2C_SDA"
 		(at 132.08 172.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8499,7 +8495,6 @@
 	)
 	(label "USBC1_CONN_TX2_P"
 		(at 222.25 180.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8510,7 +8505,6 @@
 	)
 	(label "USBC1_CONN_TX2_N"
 		(at 222.25 177.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8521,7 +8515,6 @@
 	)
 	(label "USBC1_FAULT_N"
 		(at 177.8 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8532,7 +8525,6 @@
 	)
 	(label "USBC1_CONN_TX1_N"
 		(at 222.25 162.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8543,7 +8535,6 @@
 	)
 	(label "USBC1_INT"
 		(at 132.08 177.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8554,7 +8545,6 @@
 	)
 	(label "USBC1_CONN_TX1_P"
 		(at 222.25 165.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8565,7 +8555,6 @@
 	)
 	(label "USBC1_PORT"
 		(at 132.08 137.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8576,7 +8565,6 @@
 	)
 	(label "USBC1_TX2_N"
 		(at 177.8 177.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8587,7 +8575,6 @@
 	)
 	(label "USBSS1_C_RX_P"
 		(at 132.08 157.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8598,7 +8585,6 @@
 	)
 	(label "USBC1_TX1_N"
 		(at 177.8 162.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8609,7 +8595,6 @@
 	)
 	(label "USBSS1_C_TX_N"
 		(at 132.08 162.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8620,7 +8605,6 @@
 	)
 	(label "USBC1_ISC_SCL"
 		(at 104.14 193.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8631,7 +8615,6 @@
 	)
 	(label "~{USBC1_EN_MUX}"
 		(at 132.08 139.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8642,7 +8625,6 @@
 	)
 	(label "USBC1_VBUS_DET"
 		(at 177.8 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8653,7 +8635,6 @@
 	)
 	(label "USBC1_CC2"
 		(at 222.25 137.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8664,7 +8645,6 @@
 	)
 	(label "USBC1_TX2_P"
 		(at 177.8 180.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8675,7 +8655,6 @@
 	)
 	(label "USBC1_I_MODE"
 		(at 132.08 134.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8686,7 +8665,6 @@
 	)
 	(label "USBC1_VBUS"
 		(at 251.46 87.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8697,7 +8675,6 @@
 	)
 	(label "USBSS1_C_TX_P"
 		(at 132.08 165.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8708,7 +8685,6 @@
 	)
 	(label "USBC1_TX1_P"
 		(at 177.8 165.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8719,7 +8695,6 @@
 	)
 	(label "USBC1_ID"
 		(at 311.15 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8730,7 +8705,6 @@
 	)
 	(label "USBC1_I2C_SDA"
 		(at 104.14 190.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8741,7 +8715,6 @@
 	)
 	(label "USBSS1_C_RX_N"
 		(at 132.08 154.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8752,7 +8725,6 @@
 	)
 	(label "USBC1_CC1"
 		(at 222.25 134.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8763,7 +8735,6 @@
 	)
 	(label "~{USBC1_EN_CC}"
 		(at 132.08 142.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8774,7 +8745,6 @@
 	)
 	(label "USBC1_ADDR"
 		(at 132.08 170.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8785,7 +8755,6 @@
 	)
 	(label "USBC1_RX1_N"
 		(at 177.8 154.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8796,7 +8765,6 @@
 	)
 	(label "USBC1_ID"
 		(at 177.8 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8807,7 +8775,6 @@
 	)
 	(label "USBC1_RX2_N"
 		(at 177.8 170.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8818,7 +8785,6 @@
 	)
 	(label "USBC1_DIR"
 		(at 177.8 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8829,7 +8795,6 @@
 	)
 	(label "USBC1_RX2_P"
 		(at 177.8 172.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

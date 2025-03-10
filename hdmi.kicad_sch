@@ -5,10 +5,10 @@
 	(uuid "ef383855-0122-47ca-b60c-ccc41fd04744")
 	(paper "A3")
 	(title_block
-		(title "Jetson Carrier Board")
-		(date "2024-07-05")
-		(rev "v1")
-		(company "Argus-1 Cubesat")
+		(title "Argus Carrierboard")
+		(date "2025-03-10")
+		(rev "v2.0")
+		(company "Carnegie Mellon University")
 		(comment 1 "www.antmicro.com")
 		(comment 2 "N. Khera")
 	)
@@ -7144,7 +7144,6 @@
 	)
 	(label "HDMI_CLK_CONN_N"
 		(at 308.61 149.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7155,7 +7154,6 @@
 	)
 	(label "HDMI_HPD_5V"
 		(at 307.34 226.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7166,7 +7164,6 @@
 	)
 	(label "HDMI_D0_P"
 		(at 208.28 139.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7177,7 +7174,6 @@
 	)
 	(label "HDMI_D0_CONN_P"
 		(at 297.18 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7188,7 +7184,6 @@
 	)
 	(label "HDMI_D1_N"
 		(at 208.28 134.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7199,7 +7194,6 @@
 	)
 	(label "HDMI_HPD_5V"
 		(at 297.18 82.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7210,7 +7204,6 @@
 	)
 	(label "HDMI_D2_N"
 		(at 208.28 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7221,7 +7214,6 @@
 	)
 	(label "5V_HDMI"
 		(at 270.51 157.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7232,7 +7224,6 @@
 	)
 	(label "5V_HDMI"
 		(at 334.01 175.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7243,7 +7234,6 @@
 	)
 	(label "HDMI_D2_CONN_N"
 		(at 308.61 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7254,7 +7244,6 @@
 	)
 	(label "HDMI_D0_CONN_P"
 		(at 308.61 139.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7265,7 +7254,6 @@
 	)
 	(label "HDMI_SCL_3V3"
 		(at 223.52 154.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7276,7 +7264,6 @@
 	)
 	(label "HDMI_SDA_5V"
 		(at 297.18 85.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7287,7 +7274,6 @@
 	)
 	(label "HDMI_SDA_3V3"
 		(at 223.52 157.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7298,7 +7284,6 @@
 	)
 	(label "HDMI_CLK_N"
 		(at 208.28 149.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7309,7 +7294,6 @@
 	)
 	(label "HDMI_SCL_5V"
 		(at 308.61 154.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7320,7 +7304,6 @@
 	)
 	(label "5V_HDMI"
 		(at 292.1 173.99 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7331,7 +7314,6 @@
 	)
 	(label "HDMI_SCL_5V"
 		(at 297.18 87.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7342,7 +7324,6 @@
 	)
 	(label "HDMI_CLK_CONN_P"
 		(at 308.61 147.32 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7353,7 +7334,6 @@
 	)
 	(label "HDMI_D0_CONN_N"
 		(at 308.61 142.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7364,7 +7344,6 @@
 	)
 	(label "HDMI_D0_CONN_N"
 		(at 297.18 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7375,7 +7354,6 @@
 	)
 	(label "HDMI_HPD_5V_R"
 		(at 284.48 226.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7386,7 +7364,6 @@
 	)
 	(label "HDMI_D1_P"
 		(at 208.28 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7397,7 +7374,6 @@
 	)
 	(label "HDMI_CLK_P"
 		(at 208.28 147.32 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7408,7 +7384,6 @@
 	)
 	(label "HDMI_D2_CONN_P"
 		(at 297.18 41.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7419,7 +7394,6 @@
 	)
 	(label "HDMI_D1_CONN_N"
 		(at 297.18 34.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7430,7 +7404,6 @@
 	)
 	(label "HDMI_D2_CONN_P"
 		(at 308.61 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7441,7 +7414,6 @@
 	)
 	(label "HDMI_SDA_5V"
 		(at 308.61 157.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7452,7 +7424,6 @@
 	)
 	(label "HDMI_CEC_5V"
 		(at 335.28 162.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7463,7 +7434,6 @@
 	)
 	(label "HDMI_D1_CONN_P"
 		(at 308.61 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7474,7 +7444,6 @@
 	)
 	(label "HDMI_CLK_CONN_P"
 		(at 297.18 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7485,7 +7454,6 @@
 	)
 	(label "HDMI_D1_CONN_N"
 		(at 308.61 134.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7496,7 +7464,6 @@
 	)
 	(label "HDMI_CLK_CONN_N"
 		(at 297.18 58.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7507,7 +7474,6 @@
 	)
 	(label "HDMI_D2_P"
 		(at 208.28 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7518,7 +7484,6 @@
 	)
 	(label "HDMI_D0_N"
 		(at 208.28 142.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7529,7 +7494,6 @@
 	)
 	(label "HDMI_D2_CONN_N"
 		(at 297.18 39.37 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7540,7 +7504,6 @@
 	)
 	(label "HDMI_HPD_5V"
 		(at 335.28 167.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7551,7 +7514,6 @@
 	)
 	(label "HDMI_D1_CONN_P"
 		(at 297.18 36.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7562,7 +7524,6 @@
 	)
 	(label "HDMI_CEC_5V"
 		(at 297.18 90.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
