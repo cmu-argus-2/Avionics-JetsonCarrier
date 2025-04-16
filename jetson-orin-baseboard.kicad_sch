@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "4b393452-b11e-416e-bc83-918ae3cab2f1")
 	(paper "A4")
 	(title_block
@@ -14,9 +14,13 @@
 	)
 	(lib_symbols
 		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim yes)
 			(in_bom no)
 			(on_board yes)
@@ -114,12 +118,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -210,6 +219,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
@@ -836,8 +846,54 @@
 		)
 	)
 	(sheet
+		(at 199.39 103.632)
+		(size 27.94 22.606)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "147c7a20-d180-46ef-8343-a191c588b265")
+		(property "Sheetname" "IMU"
+			(at 199.39 102.6029 0)
+			(effects
+				(font
+					(size 1.905 1.905)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "imu.kicad_sch"
+			(at 199.39 126.8226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "jetson-orin-baseboard"
+				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 67.564 103.632)
 		(size 27.686 22.606)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -876,6 +932,10 @@
 	(sheet
 		(at 166.624 73.66)
 		(size 27.94 22.606)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -914,6 +974,10 @@
 	(sheet
 		(at 166.624 103.632)
 		(size 27.94 22.606)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -952,6 +1016,10 @@
 	(sheet
 		(at 67.564 73.66)
 		(size 27.94 22.606)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -990,6 +1058,10 @@
 	(sheet
 		(at 100.838 103.632)
 		(size 27.94 22.606)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1026,46 +1098,12 @@
 		)
 	)
 	(sheet
-		(at 200.66 73.66)
-		(size 27.94 22.606)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "78676cde-d6b4-43a6-bc29-9cec708037c3")
-		(property "Sheetname" "USB3-2"
-			(at 200.66 72.6309 0)
-			(effects
-				(font
-					(size 1.905 1.905)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "usb3-2.kicad_sch"
-			(at 200.66 96.8506 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "jetson-orin-baseboard"
-				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1"
-					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 100.838 73.66)
 		(size 27.94 22.606)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1104,6 +1142,10 @@
 	(sheet
 		(at 133.604 103.632)
 		(size 27.94 22.606)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1142,6 +1184,10 @@
 	(sheet
 		(at 133.604 73.66)
 		(size 27.94 22.606)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1182,4 +1228,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
