@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "Argus Carrierboard")
-		(date "2025-03-10")
-		(rev "v2.0")
+		(date "2025-06-17")
+		(rev "v2.1")
 		(company "Carnegie Mellon University")
 		(comment 1 "www.antmicro.com")
 		(comment 2 "N. Khera")
@@ -1163,6 +1163,15 @@
 					(hide yes)
 				)
 			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "LED diode light-emitting-diode"
 				(at 0 0 0)
 				(effects
@@ -1295,21 +1304,19 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 0.762 0.508 0)
+				(at 0 0 90)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "R_Small"
-				(at 0.762 -1.016 0)
+				(at 1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -11850,55 +11857,12 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Bourns"
-			(at 278.13 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
+		(property "MPN" "C490833"
 			(at 280.67 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 275.59 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 273.05 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 290.83 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 				(justify left bottom)
 				(hide yes)
@@ -11975,73 +11939,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
-			(at 137.16 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "ERJ2GE0R00X"
+		(property "MPN" "C190119"
 			(at 134.62 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "0R"
-			(at 119.38 155.956 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 139.7 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 142.24 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "~"
-			(at 124.46 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Current" "1A"
-			(at 115.57 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12122,86 +12021,12 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0402C470J5GACTU"
+		(property "MPN" "C126511"
 			(at 326.39 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KEMET"
-			(at 326.39 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 326.39 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 326.39 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "47p"
-			(at 307.34 150.495 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 326.39 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "C0G"
-			(at 326.39 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Public" "False"
-			(at 326.39 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 				(justify left bottom)
 				(hide yes)
@@ -12278,86 +12103,12 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0402MRX5R5BB106"
+		(property "MPN" "C697423"
 			(at 36.83 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 36.83 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 36.83 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 36.83 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "10u"
-			(at 56.515 155.575 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 36.83 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" ""
-			(at 36.83 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Public" "False"
-			(at 36.83 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 				(justify left bottom)
 				(hide yes)
@@ -12613,41 +12364,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Toshiba"
-			(at 303.53 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "DF2S30FS"
+		(property "MPN" "C87910"
 			(at 306.07 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 308.61 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 311.15 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12729,55 +12447,12 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "LTST-C190GKT"
+		(property "MPN" "C2909774"
 			(at 139.7 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Lite-On"
-			(at 137.16 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 134.62 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 132.08 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Public" "False"
-			(at 137.16 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 				(justify left bottom)
 				(hide yes)
@@ -12790,6 +12465,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 154.94 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12861,55 +12545,12 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Bourns"
-			(at 278.13 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CR0402-FX-27R0GLF"
+		(property "MPN" "C844545"
 			(at 280.67 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 275.59 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 273.05 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 290.83 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 				(justify left bottom)
 				(hide yes)
@@ -12986,76 +12627,12 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM155R61H104KE14D"
+		(property "MPN" "C307348"
 			(at 300.99 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 300.99 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "100n"
-			(at 284.988 115.062 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 300.99 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 300.99 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 300.99 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "X5R"
-			(at 300.99 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 				(justify left bottom)
 				(hide yes)
@@ -13131,66 +12708,12 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 175.26 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
+		(property "MPN" "C844928"
 			(at 175.26 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "3K3"
-			(at 157.48 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 175.26 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 175.26 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 175.26 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 				(justify left bottom)
 				(hide yes)
@@ -13268,46 +12791,13 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "NCP730BMT330TBG"
+		(property "MPN" "C892821"
 			(at 86.36 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "ON Semiconductor"
-			(at 109.22 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 109.22 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 109.22 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -13346,7 +12836,7 @@
 		(at 127 168.91 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -13686,76 +13176,12 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
-			(at 290.83 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0402C105M4PACTU"
+		(property "MPN" "C2214844"
 			(at 290.83 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "1u/16V"
-			(at 274.828 115.316 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 290.83 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 290.83 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 290.83 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" ""
-			(at 290.83 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 				(justify left bottom)
 				(hide yes)
@@ -13921,55 +13347,12 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "LTST-C190GKT"
+		(property "MPN" "C2909774"
 			(at 243.84 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Lite-On"
-			(at 241.3 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 238.76 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 236.22 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Public" "False"
-			(at 241.3 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 				(justify left bottom)
 				(hide yes)
@@ -13982,6 +13365,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 259.08 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14249,30 +13641,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TPD4E05U06QDQARQ1"
+		(property "MPN" "C81353"
 			(at 290.83 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 290.83 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 290.83 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14644,76 +14014,12 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TDK"
-			(at 88.9 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C1608X5R1E106M080AC"
+		(property "MPN" "C697423"
 			(at 88.9 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "10u/25V"
-			(at 73.025 128.905 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 88.9 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 88.9 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 88.9 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" ""
-			(at 88.9 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 				(justify left bottom)
 				(hide yes)
@@ -14739,7 +14045,7 @@
 		(at 127 176.53 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -15428,65 +14734,12 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM155R61H104KE14D"
+		(property "MPN" "C307348"
 			(at 97.79 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "100n"
-			(at 82.042 153.162 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 97.79 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 97.79 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 97.79 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "X5R"
-			(at 97.79 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 				(justify left bottom)
 				(hide yes)
@@ -15562,66 +14815,12 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Bourns"
-			(at 278.13 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CR0402-FX-27R0GLF"
+		(property "MPN" "C844545"
 			(at 280.67 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "27R"
-			(at 302.006 152.908 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 275.59 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 273.05 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 290.83 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 				(justify left bottom)
 				(hide yes)
@@ -15888,65 +15087,12 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM155R61H104KE14D"
+		(property "MPN" "C307348"
 			(at 87.63 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "100n"
-			(at 71.882 153.416 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 87.63 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 87.63 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 87.63 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "X5R"
-			(at 87.63 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 				(justify left bottom)
 				(hide yes)
@@ -16024,86 +15170,12 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0402C470J5GACTU"
+		(property "MPN" "C126511"
 			(at 331.47 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KEMET"
-			(at 331.47 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 331.47 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 331.47 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "47p"
-			(at 314.96 154.305 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 331.47 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "C0G"
-			(at 331.47 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Public" "False"
-			(at 331.47 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 				(justify left bottom)
 				(hide yes)
@@ -16190,65 +15262,12 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM155R61H104KE14D"
+		(property "MPN" "C307348"
 			(at 97.79 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "100n"
-			(at 82.55 182.245 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 97.79 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 97.79 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 97.79 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "X5R"
-			(at 97.79 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 				(justify left bottom)
 				(hide yes)
@@ -16325,73 +15344,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
-			(at 137.16 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "ERJ2GE0R00X"
+		(property "MPN" "C190119"
 			(at 134.62 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "0R"
-			(at 119.38 158.496 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 139.7 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 142.24 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "~"
-			(at 124.46 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Current" "1A"
-			(at 115.57 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16472,66 +15426,12 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Bourns"
-			(at 238.76 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CR0402-FX-4701GLF"
+		(property "MPN" "C844931"
 			(at 238.76 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "4k7"
-			(at 254.508 109.22 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 238.76 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 238.76 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 238.76 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 				(justify left bottom)
 				(hide yes)
@@ -16607,55 +15507,12 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 278.13 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
+		(property "MPN" "C490833"
 			(at 280.67 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 275.59 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 273.05 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 290.83 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 				(justify left bottom)
 				(hide yes)
@@ -16733,55 +15590,12 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "LTST-C190GKT"
+		(property "MPN" "C2909774"
 			(at 133.35 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Lite-On"
-			(at 130.81 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 128.27 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 125.73 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Public" "False"
-			(at 130.81 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 				(justify left bottom)
 				(hide yes)
@@ -16794,6 +15608,15 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 148.59 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16868,46 +15691,13 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "FTDI Chip"
-			(at 123.19 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "FT230XQ-R"
+		(property "MPN" "C128629"
 			(at 95.25 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 123.19 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 123.19 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -17024,66 +15814,12 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Bourns"
-			(at 43.18 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CR0402-FX-1002GLF"
+		(property "MPN" "C2479067"
 			(at 45.72 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "10k"
-			(at 66.294 176.276 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 40.64 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 38.1 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 55.88 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 				(justify left bottom)
 				(hide yes)
@@ -17160,66 +15896,12 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 168.91 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
+		(property "MPN" "C844928"
 			(at 168.91 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "3K3"
-			(at 151.13 139.7 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 168.91 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 168.91 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 168.91 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 				(justify left bottom)
 				(hide yes)

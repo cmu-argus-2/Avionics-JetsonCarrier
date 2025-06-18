@@ -4,6 +4,14 @@
 	(generator_version "9.0")
 	(uuid "2f703426-4dc7-4791-8cdc-16a9dcd27db0")
 	(paper "A4")
+	(title_block
+		(title "Argus Carrierboard")
+		(date "2025-06-17")
+		(rev "v2.1")
+		(company "Carnegie Mellon University")
+		(comment 1 "www.antmicro.com")
+		(comment 2 "N. Khera")
+	)
 	(lib_symbols
 		(symbol "Device:C_Small"
 			(pin_numbers
@@ -157,21 +165,19 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 0.762 0.508 0)
+				(at 0 0 90)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "R_Small"
-				(at 0.762 -1.016 0)
+				(at 1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -1393,6 +1399,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C2479067"
+			(at 171.45 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "53ce0d79-8b28-4f0c-8d15-97aa2f4321c9")
 		)
@@ -1427,7 +1442,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 124.714 96.266 0)
 			(effects
 				(font
@@ -1455,6 +1470,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 127 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C307348"
 			(at 127 95.25 0)
 			(effects
 				(font
@@ -1563,7 +1587,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 173.482 105.664 0)
 			(effects
 				(font
@@ -1591,6 +1615,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 171.45 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C307348"
 			(at 171.45 105.41 0)
 			(effects
 				(font
