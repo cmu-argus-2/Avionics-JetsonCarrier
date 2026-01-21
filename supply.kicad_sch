@@ -12247,6 +12247,16 @@
 		)
 		(uuid "008927a9-2e50-4316-a4b4-7b97d46cf2a9")
 	)
+	(text "TODO: USE 3V3_STDB instead?"
+		(exclude_from_sim no)
+		(at 147.32 254.508 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "28e10757-fabe-4af2-93a0-7acc1f025d42")
+	)
 	(text "I2C Bus Protection - Power Monitor & USB Charger"
 		(exclude_from_sim no)
 		(at 32.004 191.516 0)
