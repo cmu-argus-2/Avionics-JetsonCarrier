@@ -1485,7 +1485,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../../Gerbers/",
+      "plot": "../Gerbers/Avionics-JetsonCarrier/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "Avionics-JetsonCarrier.step",

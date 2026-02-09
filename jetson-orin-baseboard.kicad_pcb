@@ -193,7 +193,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "../../Gerbers/")
+			(outputdirectory "../Gerbers/Avionics-JetsonCarrier/")
 		)
 	)
 	(net 0 "")
@@ -4856,7 +4856,7 @@
 			(pinfunction "MountPin")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "22cc1835-82c0-4ffb-94b9-bdd25457698b")
+			(uuid "20470060-4f27-4096-92b2-af05e4ba351e")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/../KiCad-Libraries/3D Models/522711069.stp"
@@ -78105,7 +78105,7 @@
 			(pinfunction "MountPin")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "c9ff9ab7-da70-4bd4-818c-4eb46766d1af")
+			(uuid "7114e4a9-4f9e-4c8c-9e37-892adf64865f")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/../KiCad-Libraries/3D Models/522711069.stp"
@@ -123116,7 +123116,7 @@
 			(net 1 "GND")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "1289527e-b0a3-487f-b37c-ee563df76dca")
+			(uuid "10e9b590-033e-4506-a527-a11156e21c2c")
 		)
 		(pad "1" connect circle
 			(at 0 0 180)
@@ -123125,7 +123125,7 @@
 			(net 1 "GND")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "1289527e-b0a3-487f-b37c-ee563df76dca")
+			(uuid "4a55c7ab-7e1b-48b0-8a8e-5fb5d1186e7e")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/../KiCad-Libraries/3D Models/9774065151 (rev1).stp"
@@ -191676,7 +191676,7 @@
 			(net 1 "GND")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "a7fe13e4-9dc5-4167-bbf0-31179ca999fd")
+			(uuid "432dccc9-c271-4559-9598-91d707739eb6")
 		)
 		(pad "1" connect circle
 			(at 0 0 180)
@@ -191685,7 +191685,7 @@
 			(net 1 "GND")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "a7fe13e4-9dc5-4167-bbf0-31179ca999fd")
+			(uuid "e677ffe3-5e59-4c79-ae5a-aa3727bf629d")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/../KiCad-Libraries/3D Models/9774025151R (rev1).stp"
@@ -192416,7 +192416,7 @@
 			(net 1 "GND")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "01d1e15c-336d-4b89-ac61-c45c6f39df11")
+			(uuid "00e3a0aa-b254-4625-9fbe-f179d6bd50f4")
 		)
 		(pad "1" connect circle
 			(at 0 0 180)
@@ -192425,7 +192425,7 @@
 			(net 1 "GND")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "01d1e15c-336d-4b89-ac61-c45c6f39df11")
+			(uuid "398f4b8a-546b-4dc2-bfbd-ea898da808c2")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/../KiCad-Libraries/3D Models/9774065151 (rev1).stp"
@@ -254974,7 +254974,6 @@
 		(polygon
 			(pts
 				(xy 185.12704 70.8476) (xy 193.89004 70.8476) (xy 193.89004 78.9756) (xy 185.12704 78.9756) (xy 185.12704 74.7084)
-				(xy 185.12704 74.7084)
 			)
 		)
 		(filled_polygon
@@ -265357,9 +265356,9 @@
 				(xy 130.0192 102.57728) (xy 110.3088 102.57728) (xy 110.3088 86.8934) (xy 107.9974 86.8934) (xy 107.9974 85.07668)
 				(xy 116.0746 85.07668) (xy 116.0746 91.73148) (xy 130.4478 91.73148) (xy 130.4478 65.1256) (xy 138.782257 65.1256)
 				(xy 157.498792 65.113468) (xy 157.4988 66.7004) (xy 159.3276 66.7004) (xy 159.3308 60.7568) (xy 163.3408 60.7568)
-				(xy 163.3408 58.53368) (xy 169.4908 58.53368) (xy 169.4908 64.0785) (xy 169.4908 64.0785) (xy 169.4908 98.28468)
-				(xy 158.9752 98.28468) (xy 158.9752 94.47468) (xy 151.6346 94.47468) (xy 151.6346 107.20008) (xy 170.9894 107.20008)
-				(xy 170.9894 116.54728) (xy 186.15 116.54728) (xy 186.15 139.30568)
+				(xy 163.3408 58.53368) (xy 169.4908 58.53368) (xy 169.4908 64.0785) (xy 169.4908 98.28468) (xy 158.9752 98.28468)
+				(xy 158.9752 94.47468) (xy 151.6346 94.47468) (xy 151.6346 107.20008) (xy 170.9894 107.20008) (xy 170.9894 116.54728)
+				(xy 186.15 116.54728) (xy 186.15 139.30568)
 			)
 		)
 		(filled_polygon
