@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "4b393452-b11e-416e-bc83-918ae3cab2f1")
 	(paper "A4")
 	(title_block
@@ -21,11 +21,15 @@
 				(offset 1.016)
 				(hide yes)
 			)
-			(exclude_from_sim yes)
+			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "H"
 				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -34,6 +38,8 @@
 			)
 			(property "Value" "MountingHole_Pad"
 				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -42,47 +48,57 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Mounting Hole with connection"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "mounting hole"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "MountingHole*Pad*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "MountingHole_Pad_0_1"
@@ -121,7 +137,7 @@
 			(embedded_fonts no)
 		)
 		(symbol "power:GND"
-			(power)
+			(power global)
 			(pin_numbers
 				(hide yes)
 			)
@@ -132,17 +148,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "GND"
 				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -151,38 +173,46 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "GND_0_1"
@@ -203,7 +233,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -223,182 +253,367 @@
 		)
 	)
 	(junction
-		(at 262.89 149.86)
+		(at 274.32 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "686bb9b6-137f-4667-89cd-f29c550a2e95")
+		(uuid "2b9c325f-1200-46cc-9768-8a2395581dc8")
 	)
 	(junction
-		(at 262.89 143.51)
+		(at 274.32 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9515fded-207e-46c4-a208-b9f27c7561fb")
+		(uuid "572c114c-fe72-4da3-ba28-9186cb2a1b25")
 	)
 	(junction
-		(at 262.89 156.21)
+		(at 274.32 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c2db9aa6-99fb-4bb1-a307-1868c801c54a")
+		(uuid "ccbe7490-036e-4d8a-bd83-4067bc78d302")
 	)
 	(wire
 		(pts
-			(xy 262.89 149.86) (xy 262.89 156.21)
+			(xy 274.32 153.67) (xy 274.32 157.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5145c0cf-5bd3-4b25-b275-104afea1ec95")
+		(uuid "55a58f49-cb35-457d-a830-9090c297c697")
 	)
 	(wire
 		(pts
-			(xy 262.89 156.21) (xy 264.16 156.21)
+			(xy 274.32 143.51) (xy 274.32 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5fcd52fb-4b1b-4b0d-8b53-344a067b764f")
+		(uuid "6e9b8f20-4332-4aff-b754-5d51e25d204a")
 	)
 	(wire
 		(pts
-			(xy 264.16 137.16) (xy 262.89 137.16)
+			(xy 274.32 123.19) (xy 274.32 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a195cf1f-5349-4b14-a15e-567bb2a251ee")
+		(uuid "90843e8f-0e61-49ca-8154-1e9738d9107c")
 	)
 	(wire
 		(pts
-			(xy 262.89 149.86) (xy 264.16 149.86)
+			(xy 274.32 133.35) (xy 274.32 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c5c01d4e-76f8-47c1-a874-1e650fb50cc6")
+		(uuid "a0feeca5-d9c8-4b4e-b9b9-d8537efe5d60")
 	)
 	(wire
 		(pts
-			(xy 262.89 156.21) (xy 262.89 158.75)
+			(xy 265.43 133.35) (xy 274.32 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d2361af6-7dd3-4769-833f-a583eef1d9e3")
+		(uuid "d61142db-6cfe-42b6-9b4b-d4b9a9a0166b")
 	)
 	(wire
 		(pts
-			(xy 262.89 143.51) (xy 264.16 143.51)
+			(xy 265.43 143.51) (xy 274.32 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f62ff190-2926-4737-9a27-75391e9fd7fe")
+		(uuid "d905ecff-5b57-4891-b04a-7dd3022132c7")
 	)
 	(wire
 		(pts
-			(xy 262.89 137.16) (xy 262.89 143.51)
+			(xy 265.43 123.19) (xy 274.32 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f7670d0f-7bab-48c3-8e86-b06b1a55f5b9")
+		(uuid "d90fec4f-9d44-4bcf-9b0e-1b3dda1c2724")
 	)
 	(wire
 		(pts
-			(xy 262.89 143.51) (xy 262.89 149.86)
+			(xy 274.32 153.67) (xy 265.43 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f9a0b799-d365-4f68-8970-052cc9257ae9")
+		(uuid "e71c72cc-5002-43e2-bc81-f6a6482d2061")
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 262.89 158.75 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 262.89 153.67 90)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
+		(in_pos_files no)
 		(dnp no)
-		(uuid "2a03fb03-4290-429d-a1a6-48dd60a2966d")
-		(property "Reference" "#PWR01"
-			(at 262.89 165.1 0)
+		(uuid "177a7fa8-5584-46f6-bac8-e3984694c3c6")
+		(property "Reference" "H4"
+			(at 261.62 157.48 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
-				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 260.858 163.322 0)
+		(property "Value" "MountingHole_Pad"
+			(at 261.62 149.86 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "Footprint" ""
-			(at 262.89 158.75 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 262.89 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 262.89 158.75 0)
+			(at 262.89 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 262.89 158.75 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 262.89 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Author" "Antmicro"
-			(at 271.78 166.37 0)
+		(property "Arrow Part Number" ""
+			(at 262.89 153.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
 				)
-				(justify left bottom)
-				(hide yes)
 			)
 		)
-		(property "License" "Apache-2.0"
-			(at 271.78 168.91 0)
+		(property "Arrow Price/Stock" ""
+			(at 262.89 153.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
 				)
-				(justify left bottom)
-				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 262.89 153.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 262.89 153.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 262.89 153.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 262.89 153.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 262.89 153.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 262.89 153.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CREATOR" ""
+			(at 262.89 153.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 262.89 153.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 262.89 153.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
-			(uuid "97560cd7-7d85-42b5-a821-672012d613d8")
+			(uuid "a14706c8-d38f-4433-9fb7-501d2548d0fd")
+		)
+		(instances
+			(project "jetson-orin-baseboard"
+				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 274.32 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "59d06668-f4d9-4989-972d-7b5adc96ad6b")
+		(property "Reference" "#PWR01"
+			(at 274.32 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 274.32 161.544 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.32 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 274.32 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0396fc69-8f5d-4992-836f-cbf45b4a5706")
 		)
 		(instances
 			(project "jetson-orin-baseboard"
@@ -411,212 +626,192 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 266.7 137.16 270)
+		(at 262.89 143.51 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "49a20d6f-7fe0-4c9f-8090-3f8d61a2d981")
-		(property "Reference" "H1"
-			(at 270.51 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 256.54 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "JetsonCarrier:MountingHole2"
-			(at 266.7 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 266.7 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 266.7 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "9774065151R"
-			(at 270.51 138.43 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Public" "False"
-			(at 254 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DNI" "DNI"
-			(at 129.54 -120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "exclude_from_bom" ""
-			(at 129.54 -120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7b9118c5-64e7-4e1d-96c8-33a953c9aeaa")
-		)
-		(instances
-			(project "jetson-orin-baseboard"
-				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1"
-					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 266.7 149.86 270)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5b099c13-63e7-45e2-96d6-efabe8ff179f")
+		(uuid "8441d53c-806a-4ba8-b7c7-2981b4e4d4ba")
 		(property "Reference" "H3"
-			(at 270.51 149.86 90)
+			(at 261.62 137.16 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 256.54 165.1 0)
+			(at 261.62 139.7 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
 				)
-				(justify left bottom)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "JetsonCarrier:MountingHole2"
-			(at 266.7 149.86 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 262.89 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 266.7 149.86 0)
+		(property "Datasheet" ""
+			(at 262.89 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 266.7 149.86 0)
+			(at 262.89 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "9774065151R"
-			(at 270.51 151.13 90)
+		(property "Arrow Part Number" ""
+			(at 262.89 143.51 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
 				)
-				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Public" "False"
-			(at 254 172.72 0)
+		(property "Arrow Price/Stock" ""
+			(at 262.89 143.51 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
-				(hide yes)
 			)
 		)
-		(property "DNI" "DNI"
-			(at 116.84 -107.95 0)
+		(property "Height" ""
+			(at 262.89 143.51 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "exclude_from_bom" ""
-			(at 116.84 -107.95 0)
+		(property "Mouser Part Number" ""
+			(at 262.89 143.51 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 262.89 143.51 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 262.89 143.51 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 262.89 143.51 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 262.89 143.51 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CREATOR" ""
+			(at 262.89 143.51 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 262.89 143.51 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 262.89 143.51 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
-			(uuid "589aa50e-e450-4f94-8510-524930db0fdb")
+			(uuid "34d51a1f-3694-480d-9be0-f3bc539a3a38")
 		)
 		(instances
 			(project "jetson-orin-baseboard"
@@ -629,108 +824,197 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 266.7 143.51 270)
+		(at 262.89 123.19 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "99014001-8d03-4441-ae92-a45d08e91a0e")
-		(property "Reference" "H2"
-			(at 270.51 143.51 90)
+		(uuid "9c248737-962c-4a1c-acf2-9c1fdf88dd98")
+		(property "Reference" "H1"
+			(at 261.62 116.84 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 256.54 158.75 0)
+			(at 261.62 119.38 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
 				)
-				(justify left bottom)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "JetsonCarrier:MountingHole2"
-			(at 266.7 143.51 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 262.89 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 266.7 143.51 0)
+		(property "Datasheet" ""
+			(at 262.89 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 266.7 143.51 0)
+			(at 262.89 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "9774065151R"
-			(at 270.51 144.78 90)
+		(property "Arrow Part Number" ""
+			(at 262.89 123.19 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
 				)
-				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Public" "False"
-			(at 254 166.37 0)
+		(property "Arrow Price/Stock" ""
+			(at 262.89 123.19 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
-				(hide yes)
 			)
 		)
-		(property "DNI" "DNI"
-			(at 123.19 -114.3 0)
+		(property "Height" ""
+			(at 262.89 123.19 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "exclude_from_bom" ""
-			(at 123.19 -114.3 0)
+		(property "Mouser Part Number" ""
+			(at 262.89 123.19 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 262.89 123.19 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 262.89 123.19 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 262.89 123.19 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 262.89 123.19 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CREATOR" ""
+			(at 262.89 123.19 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 262.89 123.19 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 262.89 123.19 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
-			(uuid "556c9f12-7700-4826-8f4d-649c3d867fac")
+			(uuid "a284a246-ddc5-46a6-a7ed-05e060882055")
 		)
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1"
-					(reference "H2")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -738,151 +1022,198 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 266.7 156.21 270)
+		(at 262.89 133.35 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ed58a688-5d63-48f6-82c2-409cb599e24c")
-		(property "Reference" "H4"
-			(at 270.51 156.21 90)
+		(uuid "aeacaae1-90f4-4a2a-8b77-8f05d4bec14f")
+		(property "Reference" "H2"
+			(at 261.62 127 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 256.54 171.45 0)
+			(at 261.62 129.54 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
 				)
-				(justify left bottom)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "JetsonCarrier:MountingHole2"
-			(at 266.7 156.21 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 262.89 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 266.7 156.21 0)
+		(property "Datasheet" ""
+			(at 262.89 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 266.7 156.21 0)
+			(at 262.89 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "9774065151R"
-			(at 270.51 157.48 90)
+		(property "Arrow Part Number" ""
+			(at 262.89 133.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
 				)
-				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Public" "False"
-			(at 254 179.07 0)
+		(property "Arrow Price/Stock" ""
+			(at 262.89 133.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
-				(hide yes)
 			)
 		)
-		(property "DNI" "DNI"
-			(at 110.49 -101.6 0)
+		(property "Height" ""
+			(at 262.89 133.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "exclude_from_bom" ""
-			(at 110.49 -101.6 0)
+		(property "Mouser Part Number" ""
+			(at 262.89 133.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 262.89 133.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 262.89 133.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 262.89 133.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 262.89 133.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CREATOR" ""
+			(at 262.89 133.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 262.89 133.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 262.89 133.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
-			(uuid "ce47e314-e2e3-4269-a8bf-919b607ed909")
+			(uuid "d3bff96d-7edb-4706-9434-7ea8b12c7d18")
 		)
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1"
-					(reference "H4")
+					(reference "H2")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(sheet
-		(at 199.39 103.632)
-		(size 27.94 22.606)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "147c7a20-d180-46ef-8343-a191c588b265")
-		(property "Sheetname" "IMU"
-			(at 199.39 102.6029 0)
-			(effects
-				(font
-					(size 1.905 1.905)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "imu.kicad_sch"
-			(at 199.39 126.8226 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "jetson-orin-baseboard"
-				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1"
-					(page "10")
 				)
 			)
 		)
@@ -900,11 +1231,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "41d8b114-08d9-401f-9e4d-c909a6d0b03e")
 		(property "Sheetname" "HDMI"
 			(at 67.564 102.6029 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.905 1.905)
@@ -914,6 +1247,8 @@
 		)
 		(property "Sheetfile" "hdmi.kicad_sch"
 			(at 67.564 126.8226 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -942,11 +1277,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd")
 		(property "Sheetname" "USB3, Recovery"
 			(at 166.624 72.6309 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.905 1.905)
@@ -956,6 +1293,8 @@
 		)
 		(property "Sheetfile" "usb3.kicad_sch"
 			(at 166.624 96.8506 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -984,11 +1323,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "59bef8df-3171-4033-8c33-797c4a36c09c")
 		(property "Sheetname" "Supply"
 			(at 166.624 102.6029 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.905 1.905)
@@ -998,6 +1339,8 @@
 		)
 		(property "Sheetfile" "supply.kicad_sch"
 			(at 166.624 126.8226 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1026,11 +1369,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "68b67bb9-703f-4397-bb09-4d44d3a917ad")
 		(property "Sheetname" "SoM"
 			(at 67.564 72.6309 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.905 1.905)
@@ -1040,6 +1385,8 @@
 		)
 		(property "Sheetfile" "som.kicad_sch"
 			(at 67.564 96.8506 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1068,11 +1415,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "74489b5f-faab-4d0f-b844-94a09965eefb")
 		(property "Sheetname" "CSI"
 			(at 100.838 102.6029 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.905 1.905)
@@ -1082,6 +1431,8 @@
 		)
 		(property "Sheetfile" "csi.kicad_sch"
 			(at 100.838 126.8226 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1110,11 +1461,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "8161d945-5864-43d7-8197-061df5f04897")
 		(property "Sheetname" "M.2"
 			(at 100.838 72.6309 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.905 1.905)
@@ -1124,6 +1477,8 @@
 		)
 		(property "Sheetfile" "m-2.kicad_sch"
 			(at 100.838 96.8506 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1152,11 +1507,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "e2c0f9a7-dbaa-401b-8614-57eda30161fa")
 		(property "Sheetname" "Peripherals"
 			(at 133.604 102.6029 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.905 1.905)
@@ -1166,6 +1523,8 @@
 		)
 		(property "Sheetfile" "peripherals.kicad_sch"
 			(at 133.604 126.8226 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1194,11 +1553,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "ea236701-ba50-4026-b890-5436b3eb8139")
 		(property "Sheetname" "USB Debug, USB2"
 			(at 133.604 72.6309 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.905 1.905)
@@ -1208,6 +1569,8 @@
 		)
 		(property "Sheetfile" "usb.kicad_sch"
 			(at 133.604 96.8506 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
