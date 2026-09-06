@@ -1556,7 +1556,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "ea236701-ba50-4026-b890-5436b3eb8139")
-		(property "Sheetname" "USB Debug, USB2"
+		(property "Sheetname" "Debug"
 			(at 133.604 72.6309 0)
 			(show_name no)
 			(do_not_autoplace no)

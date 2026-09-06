@@ -24,42 +24,42 @@
 	(constraint diff_pair_uncoupled (max 2.0mm))
 )
 
-#---------------------- USB 3.0 (90 Ohm) ----------------------
+#---------------------- USB SS (85 Ohm) ----------------------
 (rule "usb_3.0_inner"
-	(condition "A.NetClass == '90Ohm-diff_USB_3.0' && A.Layer != 'F.Cu' && A.Layer != 'B.Cu'")
-	(constraint track_width (min 0.10mm) (opt 0.1707mm) (max 0.25mm))
+	(condition "A.NetClass == '85Ohm-diff_USB_SS' && A.Layer != 'F.Cu' && A.Layer != 'B.Cu'")
+	(constraint track_width (min 0.10mm) (opt 0.1920mm) (max 0.25mm))
 	(constraint diff_pair_gap (opt 0.2032mm))
 	(constraint diff_pair_uncoupled (max 2.0mm))
 )
 (rule "usb_3.0_outer"
-	(condition "A.NetClass == '90Ohm-diff_USB_3.0' && (A.Layer == 'F.Cu' || A.Layer == 'B.Cu')")
-	(constraint track_width (min 0.10mm) (opt 0.1753mm) (max 0.25mm))
+	(condition "A.NetClass == '85Ohm-diff_USB_SS' && (A.Layer == 'F.Cu' || A.Layer == 'B.Cu')")
+	(constraint track_width (min 0.10mm) (opt 0.2007mm) (max 0.25mm))
 	(constraint diff_pair_gap (opt 0.2032mm))
 	(constraint diff_pair_uncoupled (max 2.0mm))
 )
 
 (rule "usb_3.0_clearance"
-	(condition "A.NetClass == '90Ohm-diff_USB_3.0' && !AB.isCoupledDiffPair() && A.Type == 'Track' && B.Type == 'Track'")
+	(condition "A.NetClass == '85Ohm-diff_USB_SS' && !AB.isCoupledDiffPair() && A.Type == 'Track' && B.Type == 'Track'")
 	(constraint clearance (min 0.7mm)) 
 )
 
 #--------------------- HDMI/DP (100 Ohm) ----------------------
 (rule "hdmi_inner"
 	(condition "A.NetClass == '100Ohm-diff_HDMI' && A.Layer != 'F.Cu' && A.Layer != 'B.Cu'")
-	(constraint track_width (min 0.10mm) (opt 0.1336mm) (max 0.25mm))
+	(constraint track_width (min 0.10mm) (opt 0.1349mm) (max 0.25mm))
 	(constraint diff_pair_gap (opt 0.2032mm))
 	(constraint diff_pair_uncoupled (max 2.0mm))
 )
 (rule "hdmi_outer"
 	(condition "A.NetClass == '100Ohm-diff_HDMI' && (A.Layer == 'F.Cu' || A.Layer == 'B.Cu')")
-	(constraint track_width (min 0.10mm) (opt 0.1387mm) (max 0.25mm))
+	(constraint track_width (min 0.10mm) (opt 0.1392mm) (max 0.25mm))
 	(constraint diff_pair_gap (opt 0.2032mm))
 	(constraint diff_pair_uncoupled (max 2.0mm))
 )
 
 (rule "hdmi_inter_pair_clearance"
 	(condition "A.NetClass == '100Ohm-diff_HDMI' && !AB.isCoupledDiffPair() && A.Type == 'Track' && B.Type == 'Track'")
-	(constraint clearance (min 0.6mm)) 
+	(constraint clearance (opt 2.0mm)) 
 )
 
 #-------------------- D-PHY CSI (90 Ohm) ---------------------

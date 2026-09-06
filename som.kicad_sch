@@ -20957,16 +20957,6 @@
 		)
 		(uuid "cedc3ea8-7205-4776-aa54-1142e7508f93")
 	)
-	(text "#TODO: USB PINS ARE PROBABLY WRONG"
-		(exclude_from_sim no)
-		(at 185.674 261.112 0)
-		(effects
-			(font
-				(size 2.159 2.159)
-			)
-		)
-		(uuid "e5868784-8c59-4029-9f65-4773379d1c73")
-	)
 	(text "Miscellaneous"
 		(exclude_from_sim no)
 		(at 64.77 223.52 0)
@@ -21107,7 +21097,7 @@
 		(uuid "0a5c5ec6-7874-4609-9e40-6a31604423d4")
 	)
 	(no_connect
-		(at 189.23 208.28)
+		(at 189.23 222.25)
 		(uuid "0badd5de-e500-41b0-a759-ce2c31426795")
 	)
 	(no_connect
@@ -21175,7 +21165,7 @@
 		(uuid "4a75d809-dc63-41e8-b74c-c5f09904fc8f")
 	)
 	(no_connect
-		(at 189.23 214.63)
+		(at 189.23 228.6)
 		(uuid "4b4215b2-d9d7-45cc-9c42-b74bf29b6c12")
 	)
 	(no_connect
@@ -21231,7 +21221,7 @@
 		(uuid "79038146-e012-4219-8e39-e7ea523daf47")
 	)
 	(no_connect
-		(at 189.23 205.74)
+		(at 189.23 219.71)
 		(uuid "79e6c68c-4589-4da6-b691-d49655b3c4d5")
 	)
 	(no_connect
@@ -21311,7 +21301,7 @@
 		(uuid "ae58ce71-55b8-4621-b432-7e2202896bf4")
 	)
 	(no_connect
-		(at 189.23 212.09)
+		(at 189.23 226.06)
 		(uuid "b34af95c-e6c6-44cd-b2c5-85c83a4eaeca")
 	)
 	(no_connect
@@ -21396,7 +21386,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 228.6) (xy 194.31 228.6)
+			(xy 189.23 214.63) (xy 194.31 214.63)
 		)
 		(stroke
 			(width 0)
@@ -21456,7 +21446,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 219.71) (xy 194.31 219.71)
+			(xy 189.23 205.74) (xy 194.31 205.74)
 		)
 		(stroke
 			(width 0)
@@ -22496,7 +22486,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 226.06) (xy 194.31 226.06)
+			(xy 189.23 212.09) (xy 194.31 212.09)
 		)
 		(stroke
 			(width 0)
@@ -23106,7 +23096,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 222.25) (xy 194.31 222.25)
+			(xy 189.23 208.28) (xy 194.31 208.28)
 		)
 		(stroke
 			(width 0)
@@ -24016,9 +24006,9 @@
 			)
 		)
 	)
-	(global_label "USBSS2_RX_P"
+	(global_label "USBSS1_RX_P"
 		(shape output)
-		(at 194.31 226.06 0)
+		(at 194.31 212.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -24027,7 +24017,7 @@
 		)
 		(uuid "257c7341-a475-49f5-a1b2-21562b221aec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.185 226.06 0)
+			(at 210.185 212.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24281,9 +24271,9 @@
 			)
 		)
 	)
-	(global_label "USBSS2_TX_P"
+	(global_label "USBSS1_TX_P"
 		(shape output)
-		(at 194.31 219.71 0)
+		(at 194.31 205.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -24292,7 +24282,7 @@
 		)
 		(uuid "418cf066-76a6-43c5-afe1-d6ce41196958")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.185 219.71 0)
+			(at 210.185 205.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25036,9 +25026,9 @@
 			)
 		)
 	)
-	(global_label "USBSS2_TX_N"
+	(global_label "USBSS1_TX_N"
 		(shape output)
-		(at 194.31 222.25 0)
+		(at 194.31 208.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -25047,7 +25037,7 @@
 		)
 		(uuid "9afbc2df-168a-46c6-9694-4a95ce9996dd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.185 222.25 0)
+			(at 210.185 208.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25990,9 +25980,9 @@
 			)
 		)
 	)
-	(global_label "USBSS2_RX_N"
+	(global_label "USBSS1_RX_N"
 		(shape output)
-		(at 194.31 228.6 0)
+		(at 194.31 214.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26001,7 +25991,7 @@
 		)
 		(uuid "f869d9fe-a6f3-4235-8030-d17e354f0360")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.185 228.6 0)
+			(at 210.185 214.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
