@@ -7906,6 +7906,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "jetson-orin-baseboard:GND_10"
 			(power global)
 			(pin_numbers
@@ -20834,6 +20957,16 @@
 		)
 		(uuid "cedc3ea8-7205-4776-aa54-1142e7508f93")
 	)
+	(text "#TODO: USB PINS ARE PROBABLY WRONG"
+		(exclude_from_sim no)
+		(at 185.674 261.112 0)
+		(effects
+			(font
+				(size 2.159 2.159)
+			)
+		)
+		(uuid "e5868784-8c59-4029-9f65-4773379d1c73")
+	)
 	(text "Miscellaneous"
 		(exclude_from_sim no)
 		(at 64.77 223.52 0)
@@ -20914,6 +21047,12 @@
 		(uuid "9789efce-2759-454d-8701-3109b8fd944e")
 	)
 	(junction
+		(at 401.32 241.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af9f80ee-ddcd-4d5c-adb3-8a2ded7c7021")
+	)
+	(junction
 		(at 41.91 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -20968,7 +21107,7 @@
 		(uuid "0a5c5ec6-7874-4609-9e40-6a31604423d4")
 	)
 	(no_connect
-		(at 189.23 222.25)
+		(at 189.23 208.28)
 		(uuid "0badd5de-e500-41b0-a759-ce2c31426795")
 	)
 	(no_connect
@@ -21036,7 +21175,7 @@
 		(uuid "4a75d809-dc63-41e8-b74c-c5f09904fc8f")
 	)
 	(no_connect
-		(at 189.23 228.6)
+		(at 189.23 214.63)
 		(uuid "4b4215b2-d9d7-45cc-9c42-b74bf29b6c12")
 	)
 	(no_connect
@@ -21092,7 +21231,7 @@
 		(uuid "79038146-e012-4219-8e39-e7ea523daf47")
 	)
 	(no_connect
-		(at 189.23 219.71)
+		(at 189.23 205.74)
 		(uuid "79e6c68c-4589-4da6-b691-d49655b3c4d5")
 	)
 	(no_connect
@@ -21172,7 +21311,7 @@
 		(uuid "ae58ce71-55b8-4621-b432-7e2202896bf4")
 	)
 	(no_connect
-		(at 189.23 226.06)
+		(at 189.23 212.09)
 		(uuid "b34af95c-e6c6-44cd-b2c5-85c83a4eaeca")
 	)
 	(no_connect
@@ -21257,7 +21396,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 214.63) (xy 194.31 214.63)
+			(xy 189.23 228.6) (xy 194.31 228.6)
 		)
 		(stroke
 			(width 0)
@@ -21317,7 +21456,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 205.74) (xy 194.31 205.74)
+			(xy 189.23 219.71) (xy 194.31 219.71)
 		)
 		(stroke
 			(width 0)
@@ -21407,6 +21546,16 @@
 	)
 	(wire
 		(pts
+			(xy 401.32 232.41) (xy 401.32 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "195f9f35-0cc4-4b29-a55a-b53725ebfc8e")
+	)
+	(wire
+		(pts
 			(xy 64.77 255.27) (xy 64.77 262.89)
 		)
 		(stroke
@@ -21437,7 +21586,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 260.35) (xy 66.04 260.35)
+			(xy 45.72 257.81) (xy 66.04 257.81)
 		)
 		(stroke
 			(width 0)
@@ -21624,6 +21773,16 @@
 			(type default)
 		)
 		(uuid "2f2d9dee-dee0-4afc-88a8-9b00c3d74acd")
+	)
+	(wire
+		(pts
+			(xy 396.24 232.41) (xy 401.32 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fa7545b-5800-4408-b5dd-13c2fd9a18af")
 	)
 	(wire
 		(pts
@@ -22107,7 +22266,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 257.81) (xy 86.36 257.81)
+			(xy 88.9 260.35) (xy 86.36 260.35)
 		)
 		(stroke
 			(width 0)
@@ -22337,7 +22496,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 212.09) (xy 194.31 212.09)
+			(xy 189.23 226.06) (xy 194.31 226.06)
 		)
 		(stroke
 			(width 0)
@@ -22437,7 +22596,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 260.35) (xy 86.36 260.35)
+			(xy 88.9 257.81) (xy 86.36 257.81)
 		)
 		(stroke
 			(width 0)
@@ -22907,6 +23066,16 @@
 	)
 	(wire
 		(pts
+			(xy 396.24 241.3) (xy 401.32 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9497ab9-c77f-4fc3-aaae-f4913e03b2bf")
+	)
+	(wire
+		(pts
 			(xy 375.92 93.98) (xy 365.76 93.98)
 		)
 		(stroke
@@ -22937,7 +23106,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 208.28) (xy 194.31 208.28)
+			(xy 189.23 222.25) (xy 194.31 222.25)
 		)
 		(stroke
 			(width 0)
@@ -23147,7 +23316,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 257.81) (xy 66.04 257.81)
+			(xy 45.72 260.35) (xy 66.04 260.35)
 		)
 		(stroke
 			(width 0)
@@ -23224,6 +23393,16 @@
 			(type default)
 		)
 		(uuid "f1086531-2cd4-4809-8757-f6e0ab8b9c08")
+	)
+	(wire
+		(pts
+			(xy 401.32 241.3) (xy 401.32 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f14bf8d9-6681-4db6-a38e-78b850262964")
 	)
 	(wire
 		(pts
@@ -23356,7 +23535,7 @@
 		(uuid "07c9493a-7e34-4c64-a0b5-7253c1234a75")
 	)
 	(label "DEBUG_TXD_1V8"
-		(at 45.72 260.35 0)
+		(at 45.72 257.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -23386,7 +23565,7 @@
 		(uuid "871ef1e4-637c-4e10-a4d3-a57e43bbfec1")
 	)
 	(label "DEBUG_RXD_1V8"
-		(at 45.72 257.81 0)
+		(at 45.72 260.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -23837,9 +24016,9 @@
 			)
 		)
 	)
-	(global_label "USBSS1_RX_P"
+	(global_label "USBSS2_RX_P"
 		(shape output)
-		(at 194.31 212.09 0)
+		(at 194.31 226.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -23848,7 +24027,7 @@
 		)
 		(uuid "257c7341-a475-49f5-a1b2-21562b221aec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.185 212.09 0)
+			(at 210.185 226.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24102,9 +24281,9 @@
 			)
 		)
 	)
-	(global_label "USBSS1_TX_P"
+	(global_label "USBSS2_TX_P"
 		(shape output)
-		(at 194.31 205.74 0)
+		(at 194.31 219.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -24113,7 +24292,7 @@
 		)
 		(uuid "418cf066-76a6-43c5-afe1-d6ce41196958")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.185 205.74 0)
+			(at 210.185 219.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24857,9 +25036,9 @@
 			)
 		)
 	)
-	(global_label "USBSS1_TX_N"
+	(global_label "USBSS2_TX_N"
 		(shape output)
-		(at 194.31 208.28 0)
+		(at 194.31 222.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -24868,7 +25047,7 @@
 		)
 		(uuid "9afbc2df-168a-46c6-9694-4a95ce9996dd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.185 208.28 0)
+			(at 210.185 222.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25280,7 +25459,7 @@
 	)
 	(global_label "DEBUG_TXD"
 		(shape output)
-		(at 88.9 260.35 0)
+		(at 88.9 257.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -25289,7 +25468,7 @@
 		)
 		(uuid "b8dc9c3c-52dc-4c82-b1af-10db5ae6d73d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.87 260.35 0)
+			(at 102.87 257.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25501,7 +25680,7 @@
 	)
 	(global_label "DEBUG_RXD"
 		(shape input)
-		(at 88.9 257.81 0)
+		(at 88.9 260.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -25510,7 +25689,7 @@
 		)
 		(uuid "d54f5429-3e4c-4091-824e-420b3c9b0e0c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.87 257.81 0)
+			(at 102.87 260.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25811,9 +25990,9 @@
 			)
 		)
 	)
-	(global_label "USBSS1_RX_N"
+	(global_label "USBSS2_RX_N"
 		(shape output)
-		(at 194.31 214.63 0)
+		(at 194.31 228.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -25822,7 +26001,7 @@
 		)
 		(uuid "f869d9fe-a6f3-4235-8030-d17e354f0360")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.185 214.63 0)
+			(at 210.185 228.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26275,7 +26454,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Argus-Miscellaneous:Jetson_Module_TE_2309409-1"
+		(property "Footprint" "JetsonCarrier:TE_2309413"
 			(at 215.9 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -27161,6 +27340,111 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 401.32 245.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0b83e135-85f6-453b-ad35-7f9fcbbf2039")
+		(property "Reference" "#PWR094"
+			(at 401.32 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "GND"
+			(at 399.288 248.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 401.32 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 401.32 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 401.32 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 410.21 252.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 410.21 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "899be7a0-2025-4ab2-bab5-d4fb04906b4a")
+		)
+		(instances
+			(project "jetson-orin-baseboard"
+				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/68b67bb9-703f-4397-bb09-4d44d3a917ad"
+					(reference "#PWR094")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 22.86 120.65 0)
 		(unit 1)
 		(body_style 1)
@@ -27869,6 +28153,136 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 393.7 232.41 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2e770f87-4333-487c-bde0-af9eca98f9da")
+		(property "Reference" "H6"
+			(at 392.176 226.822 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "9774065151"
+			(at 392.43 228.854 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad_TopBottom"
+			(at 393.7 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 393.7 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 393.7 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 406.4 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "9774025151R"
+			(at 408.94 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 411.48 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 414.02 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "9eb7681c-7408-4cab-9939-e4cd4b2c8a82")
+		)
+		(instances
+			(project "jetson-orin-baseboard"
+				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/68b67bb9-703f-4397-bb09-4d44d3a917ad"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Battery_Cell")
 		(at 41.91 161.29 0)
 		(unit 1)
@@ -28040,7 +28454,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Argus-Miscellaneous:Jetson_Module_TE_2309409-1"
+		(property "Footprint" "JetsonCarrier:TE_2309413"
 			(at 214.63 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -28961,7 +29375,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Argus-Miscellaneous:Jetson_Module_TE_2309409-1"
+		(property "Footprint" "JetsonCarrier:TE_2309413"
 			(at 303.53 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -30384,7 +30798,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Argus-Miscellaneous:Jetson_Module_TE_2309409-1"
+		(property "Footprint" "JetsonCarrier:TE_2309413"
 			(at 304.8 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -32603,7 +33017,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Argus-Miscellaneous:Jetson_Module_TE_2309409-1"
+		(property "Footprint" "JetsonCarrier:TE_2309413"
 			(at -1.27 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -33524,7 +33938,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Argus-Miscellaneous:Jetson_Module_TE_2309409-1"
+		(property "Footprint" "JetsonCarrier:TE_2309413"
 			(at 127 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -35855,6 +36269,136 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 393.7 241.3 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d58a4a22-691e-47b8-b336-c8a79033a549")
+		(property "Reference" "H7"
+			(at 392.176 235.712 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "9774065151"
+			(at 392.176 237.744 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad_TopBottom"
+			(at 393.7 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 393.7 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 393.7 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 406.4 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "9774025151R"
+			(at 408.94 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 411.48 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 414.02 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "43db25a0-7fc2-4eb8-9780-6e4056707165")
+		)
+		(instances
+			(project "jetson-orin-baseboard"
+				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/68b67bb9-703f-4397-bb09-4d44d3a917ad"
+					(reference "H7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "JetsonCarrier:Bus_DDR4_SODIMM_CUSTOM_Jetson-Orin-H9.2mm-socket")
 		(at 193.04 39.37 0)
 		(mirror y)
@@ -35891,7 +36435,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Argus-Miscellaneous:Jetson_Module_TE_2309409-1"
+		(property "Footprint" "JetsonCarrier:TE_2309413"
 			(at 130.81 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -37442,7 +37986,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Argus-Miscellaneous:Jetson_Module_TE_2309409-1"
+		(property "Footprint" "JetsonCarrier:TE_2309413"
 			(at 118.11 146.05 0)
 			(hide yes)
 			(show_name no)

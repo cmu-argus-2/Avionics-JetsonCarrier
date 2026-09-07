@@ -3,25 +3,25 @@
 #=========================================================
 # GLOBAL HIGH-SPEED VIAS
 #=========================================================
-(rule "hs_vias"
-	(condition "(A.NetClass == '90Ohm-diff_USB_2.0' || A.NetClass == '90Ohm-diff_USB_3.0' || A.NetClass == '100Ohm-diff_HDMI' || A.NetClass == '90Ohm-diff_CSI' || A.NetClass == '85Ohm-diff_PCIE') && A.Type == 'Via'")
-	(constraint via_diameter (opt 0.45mm))
-	(constraint hole_size (opt 0.2mm))
-	(constraint clearance (min 0.25mm))
-)
-
+#(rule "hs_vias"
+#	(condition "(A.NetClass == '90Ohm-diff_USB_2.0' || A.NetClass == '90Ohm-diff_USB_3.0' || A.NetClass == '100Ohm-diff_HDMI' || A.NetClass == '90Ohm-diff_CSI' || A.NetClass == '85Ohm-diff_PCIE') && A.Type == 'Via'")
+#	(constraint via_diameter (opt 0.45mm))
+#	(constraint hole_size (opt 0.2mm))
+#	(constraint clearance (min 0.25mm))
+#)
+#
 #---------------------- USB 2.0 (90 Ohm) ----------------------
 (rule "usb_2.0_inner"
 	(condition "A.NetClass == '90Ohm-diff_USB_2.0' && A.Layer != 'F.Cu' && A.Layer != 'B.Cu'")
 	(constraint track_width (min 0.10mm) (opt 0.1707mm) (max 0.25mm))
 	(constraint diff_pair_gap (opt 0.2032mm))
-	(constraint diff_pair_uncoupled (max 2.0mm))
+	(constraint diff_pair_uncoupled (max 3.0mm))
 )
 (rule "usb_2.0_outer"
 	(condition "A.NetClass == '90Ohm-diff_USB_2.0' && (A.Layer == 'F.Cu' || A.Layer == 'B.Cu')")
 	(constraint track_width (min 0.10mm) (opt 0.1753mm) (max 0.25mm))
 	(constraint diff_pair_gap (opt 0.2032mm))
-	(constraint diff_pair_uncoupled (max 2.0mm))
+	(constraint diff_pair_uncoupled (max 3.0mm))
 )
 
 #---------------------- USB SS (85 Ohm) ----------------------
@@ -95,10 +95,10 @@
 	(constraint diff_pair_uncoupled (max 2.0mm))
 )
 
-(rule "pcie_clearance"
-	(condition "A.NetClass == '85Ohm-diff_PCIE' && !AB.isCoupledDiffPair() && A.Type == 'Track' && B.Type == 'Track'")
-	(constraint clearance (min 0.8mm)) 
-)
+#(rule "pcie_clearance"
+#	(condition "A.NetClass == '85Ohm-diff_PCIE' && !AB.isCoupledDiffPair() && A.Type == 'Track' && B.Type == 'Track'")
+#	(constraint clearance (min 0.8mm)) 
+#)
 
 #----------------------- GND / ZONES ------------------------
 (rule "clearance3"

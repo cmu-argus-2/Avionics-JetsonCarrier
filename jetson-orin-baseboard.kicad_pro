@@ -52,9 +52,9 @@
         "zones": {
           "45_degree_only": false,
           "border_display_style": 2,
-          "border_hatch_pitch": 0.508,
-          "corner_radius": 0.25,
-          "corner_smoothing": 2,
+          "border_hatch_pitch": 0.5,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
           "fill_mode": 0,
           "hatch_gap": 1.5,
           "hatch_orientation": 0.0,
@@ -63,11 +63,11 @@
           "hatch_thickness": 1.0,
           "min_clearance": 0.1524,
           "min_island_area": 10.0,
-          "min_thickness": 0.254,
+          "min_thickness": 0.25,
           "pad_connection": 2,
-          "remove_islands": 0,
-          "thermal_relief_gap": 0.508,
-          "thermal_relief_spoke_width": 0.508
+          "remove_islands": 1,
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -657,6 +657,18 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/Debug/USBC3_D_N": [
+        "90Ohm-diff_USB_2.0"
+      ],
+      "/Debug/USBC3_D_P": [
+        "90Ohm-diff_USB_2.0"
+      ],
+      "/Debug/USB_FTDI_N": [
+        "90Ohm-diff_USB_2.0"
+      ],
+      "/Debug/USB_FTDI_P": [
+        "90Ohm-diff_USB_2.0"
+      ],
       "/HDMI/HDMI_CLK_CONN_N": [
         "100Ohm-diff_HDMI"
       ],
@@ -705,6 +717,48 @@
       "/HDMI/HDMI_D2_P": [
         "100Ohm-diff_HDMI"
       ],
+      "/M.2/C_PCIE0_TX0_N": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/C_PCIE0_TX0_P": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/C_PCIE0_TX1_N": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/C_PCIE0_TX1_P": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/C_PCIE0_TX2_N": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/C_PCIE0_TX2_P": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/C_PCIE0_TX3_N": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/C_PCIE0_TX3_P": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/USB3, Recovery/USBSS0_CONN_TX_N": [
+        "85Ohm-diff_USB_SS"
+      ],
+      "/USB3, Recovery/USBSS0_CONN_TX_P": [
+        "85Ohm-diff_USB_SS"
+      ],
+      "/USB3, Recovery/USBSS1_CONN_RX_N": [
+        "85Ohm-diff_USB_SS"
+      ],
+      "/USB3, Recovery/USBSS1_CONN_RX_P": [
+        "85Ohm-diff_USB_SS"
+      ],
+      "/USB3, Recovery/USBSS1_CONN_TX_N": [
+        "85Ohm-diff_USB_SS"
+      ],
+      "/USB3, Recovery/USBSS1_CONN_TX_P": [
+        "85Ohm-diff_USB_SS"
+      ],
       "DP1_HDMI_AUX_N": [
         "100Ohm-diff_HDMI"
       ],
@@ -734,6 +788,102 @@
       ],
       "DP1_TXD3_HDMI_TXC_P": [
         "100Ohm-diff_HDMI"
+      ],
+      "PCIE0_CLK_N": [
+        "85Ohm-diff_PCIE"
+      ],
+      "PCIE0_CLK_P": [
+        "85Ohm-diff_PCIE"
+      ],
+      "PCIE0_RX0_N": [
+        "85Ohm-diff_PCIE"
+      ],
+      "PCIE0_RX0_P": [
+        "85Ohm-diff_PCIE"
+      ],
+      "PCIE0_RX1_N": [
+        "85Ohm-diff_PCIE"
+      ],
+      "PCIE0_RX1_P": [
+        "85Ohm-diff_PCIE"
+      ],
+      "PCIE0_RX2_N": [
+        "85Ohm-diff_PCIE"
+      ],
+      "PCIE0_RX2_P": [
+        "85Ohm-diff_PCIE"
+      ],
+      "PCIE0_RX3_N": [
+        "85Ohm-diff_PCIE"
+      ],
+      "PCIE0_RX3_P": [
+        "85Ohm-diff_PCIE"
+      ],
+      "PCIE0_TX0_N": [
+        "85Ohm-diff_PCIE"
+      ],
+      "PCIE0_TX0_P": [
+        "85Ohm-diff_PCIE"
+      ],
+      "PCIE0_TX1_N": [
+        "85Ohm-diff_PCIE"
+      ],
+      "PCIE0_TX1_P": [
+        "85Ohm-diff_PCIE"
+      ],
+      "PCIE0_TX2_N": [
+        "85Ohm-diff_PCIE"
+      ],
+      "PCIE0_TX2_P": [
+        "85Ohm-diff_PCIE"
+      ],
+      "PCIE0_TX3_N": [
+        "85Ohm-diff_PCIE"
+      ],
+      "PCIE0_TX3_P": [
+        "85Ohm-diff_PCIE"
+      ],
+      "USB0_D_N": [
+        "90Ohm-diff_USB_2.0"
+      ],
+      "USB0_D_P": [
+        "90Ohm-diff_USB_2.0"
+      ],
+      "USB1_D_N": [
+        "90Ohm-diff_USB_2.0"
+      ],
+      "USB1_D_P": [
+        "90Ohm-diff_USB_2.0"
+      ],
+      "USB2_D_N": [
+        "90Ohm-diff_USB_2.0"
+      ],
+      "USB2_D_P": [
+        "90Ohm-diff_USB_2.0"
+      ],
+      "USBSS0_RX_N": [
+        "85Ohm-diff_USB_SS"
+      ],
+      "USBSS0_RX_P": [
+        "85Ohm-diff_USB_SS"
+      ],
+      "USBSS0_TX_N": [
+        "85Ohm-diff_USB_SS"
+      ],
+      "USBSS0_TX_P": [
+        "85Ohm-diff_USB_SS"
+      ],
+      "USBSS1_RX_N": [
+        "85Ohm-diff_USB_SS"
+      ],
+      "USBSS1_RX_P": [
+        "85Ohm-diff_USB_SS"
+      ],
+      "USBSS1_TX_N": [
+        "85Ohm-diff_USB_SS"
+      ],
+      "USBSS1_TX_P": [
+        "85Ohm-diff_USB_SS"
       ]
     },
     "netclass_patterns": [
