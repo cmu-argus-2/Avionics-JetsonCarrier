@@ -3325,6 +3325,321 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Transistor_FET:BSS138"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BSS138"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+				(at 5.08 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "N-Channel MOSFET"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BSS138_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 0.381) (xy 3.683 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BSS138_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "jetson-orin-baseboard:AP22615_1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6131,16 +6446,6 @@
 		)
 		(uuid "0d509a9e-b60c-4c40-8338-2c3d1f7f2d0d")
 	)
-	(text "TODO: Figure out exact routing here!"
-		(exclude_from_sim no)
-		(at 273.05 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "33fedf9a-5cd3-4921-9d14-92c0fb6e42f8")
-	)
 	(text " AC capacitors should be located close to either the USB connector, or the Orin module pins."
 		(exclude_from_sim no)
 		(at 118.11 275.59 0)
@@ -6176,16 +6481,6 @@
 			(justify right bottom)
 		)
 		(uuid "7139fb55-3454-4ab9-9082-b7902f2abe61")
-	)
-	(text "TODO: Figure out exact routing here!"
-		(exclude_from_sim no)
-		(at 44.45 255.27 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "8365a285-e31e-42e9-8e53-2fdddca5e77e")
 	)
 	(text " AC capacitors should be located close to either the USB connector, or the Orin module pins."
 		(exclude_from_sim no)
@@ -6324,6 +6619,12 @@
 		(uuid "4a33a033-ffbf-4df1-b9c9-425e69b14720")
 	)
 	(junction
+		(at 271.78 116.205)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d50e008-327e-400b-8445-43567f2f4534")
+	)
+	(junction
 		(at 175.26 223.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6334,6 +6635,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "74bec0ae-57c0-430d-ba91-d3d266d63057")
+	)
+	(junction
+		(at 320.04 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "780ce43d-a357-4def-b6a0-7c6c54c9c65a")
 	)
 	(junction
 		(at 116.84 96.52)
@@ -6436,6 +6743,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c33332d2-de25-4378-9c76-77c42e75bb1a")
+	)
+	(junction
+		(at 283.21 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c46e7246-5966-4d65-b478-7f0909405fdd")
 	)
 	(junction
 		(at 175.26 246.38)
@@ -7081,16 +7394,6 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 134.62) (xy 334.01 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fc3508b-c9b2-4eac-ac36-864656b26923")
-	)
-	(wire
-		(pts
 			(xy 168.91 69.85) (xy 168.91 72.39)
 		)
 		(stroke
@@ -7168,6 +7471,16 @@
 			(type default)
 		)
 		(uuid "51dd728f-a91f-4395-bb07-e5d3f999e063")
+	)
+	(wire
+		(pts
+			(xy 283.21 114.3) (xy 283.21 116.205)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "520c5b89-8275-4b81-9bdb-beec62de0307")
 	)
 	(wire
 		(pts
@@ -7268,6 +7581,16 @@
 			(type default)
 		)
 		(uuid "5fde7983-6978-4ca7-bea1-238521c56d11")
+	)
+	(wire
+		(pts
+			(xy 283.21 106.68) (xy 320.04 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "605fe7c5-beec-4148-be0f-0b6d566a94e4")
 	)
 	(wire
 		(pts
@@ -7531,6 +7854,16 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 95.885) (xy 271.78 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83ee1d5b-cb79-4ffc-a7c8-ad64663a8e7b")
+	)
+	(wire
+		(pts
 			(xy 151.13 54.61) (xy 158.75 54.61)
 		)
 		(stroke
@@ -7558,6 +7891,16 @@
 			(type default)
 		)
 		(uuid "85e623b3-0e24-43ef-abfa-7a9b57f4061b")
+	)
+	(wire
+		(pts
+			(xy 283.21 106.68) (xy 283.21 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87b4cbc7-cb8f-46a3-a291-5051bac8a5d8")
 	)
 	(wire
 		(pts
@@ -7658,6 +8001,26 @@
 			(type default)
 		)
 		(uuid "91665953-2664-47bd-90ed-5740ae985909")
+	)
+	(wire
+		(pts
+			(xy 320.04 134.62) (xy 334.01 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91d8013d-8506-4228-a6ad-d34cc72d41c0")
+	)
+	(wire
+		(pts
+			(xy 271.78 111.76) (xy 271.78 116.205)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "922f6d3f-ceee-4772-ab7b-7f93693325e0")
 	)
 	(wire
 		(pts
@@ -7818,6 +8181,16 @@
 			(type default)
 		)
 		(uuid "a6f27ebe-8d08-4a60-a44f-26ca44fcd522")
+	)
+	(wire
+		(pts
+			(xy 320.04 106.68) (xy 349.25 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7310f51-0c4d-4b52-8f4e-85944ba08d96")
 	)
 	(wire
 		(pts
@@ -7991,7 +8364,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 106.68) (xy 349.25 106.68)
+			(xy 279.4 106.68) (xy 283.21 106.68)
 		)
 		(stroke
 			(width 0)
@@ -8121,6 +8494,16 @@
 	)
 	(wire
 		(pts
+			(xy 283.21 116.205) (xy 271.78 116.205)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbaa127e-643d-441b-98ea-0eb612cdd018")
+	)
+	(wire
+		(pts
 			(xy 87.63 39.37) (xy 87.63 41.275)
 		)
 		(stroke
@@ -8161,6 +8544,16 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 116.205) (xy 271.78 117.475)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d502ba37-ad3c-426c-978b-c7860678d1e9")
+	)
+	(wire
+		(pts
 			(xy 175.26 226.06) (xy 179.07 226.06)
 		)
 		(stroke
@@ -8188,6 +8581,16 @@
 			(type default)
 		)
 		(uuid "dc2da323-b062-47bf-b136-897abeefeb67")
+	)
+	(wire
+		(pts
+			(xy 267.97 95.885) (xy 271.78 95.885)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc5c0ece-2d51-44b5-80d6-ac08d98ae51f")
 	)
 	(wire
 		(pts
@@ -8860,6 +9263,29 @@
 			(effects
 				(font
 					(size 1.1 1.1)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "USB_FLASH_ID"
+		(shape input)
+		(at 267.97 95.885 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f5a61a48-0702-45cc-b6d4-a024edd92ebe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 251.6195 95.885 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(justify right)
 			)
@@ -11129,6 +11555,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:BSS138")
+		(at 274.32 106.68 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "36e970ca-df06-4a6a-84c3-417f0fdc99cf")
+		(property "Reference" "Q3"
+			(at 268.605 107.9501 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS138"
+			(at 268.605 105.4101 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 269.24 108.585 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+			(at 269.24 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+			(at 274.32 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a4400b62-f957-4b34-8915-c6c5e13a23c2")
+		)
+		(pin "3"
+			(uuid "922385ad-33c9-4f2b-ace9-b95caac264f7")
+		)
+		(pin "1"
+			(uuid "f1861606-b4b8-4c74-8bb7-b0e9889e8cd1")
+		)
+		(instances
+			(project "jetson-orin-baseboard"
+				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Zener_Filled")
 		(at 158.75 200.66 270)
 		(unit 1)
@@ -11562,7 +12076,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 168.91 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -13085,7 +13599,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 68.58 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -13180,7 +13694,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 85.09 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -13236,6 +13750,111 @@
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
 					(reference "R188")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 271.78 117.475 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7f0bf3d6-12e3-492a-b2e4-69f2a086ab33")
+		(property "Reference" "#PWR0309"
+			(at 271.78 123.825 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "GND"
+			(at 269.748 122.047 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 271.78 117.475 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 117.475 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 271.78 117.475 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 280.67 125.095 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 280.67 127.635 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "8ff9170d-a38e-415b-89c1-f4986317f3bf")
+		)
+		(instances
+			(project "jetson-orin-baseboard"
+				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
+					(reference "#PWR0309")
 					(unit 1)
 				)
 			)
@@ -14437,7 +15056,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 116.84 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -15344,7 +15963,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 76.2 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -15611,6 +16230,101 @@
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
 					(reference "#PWR0193")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 283.21 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b925b153-6e06-4f76-a3e1-e715da1bdfbe")
+		(property "Reference" "R107"
+			(at 284.734 111.506 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1M"
+			(at 284.734 113.538 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 283.21 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 283.21 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 283.21 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C844931"
+			(at 303.53 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "24d34391-a3e7-423b-9e1f-c540bfa516c8")
+		)
+		(pin "2"
+			(uuid "426b6acc-4c86-42f8-86a7-ee19e04cae0d")
+		)
+		(instances
+			(project "jetson-orin-baseboard"
+				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
+					(reference "R107")
 					(unit 1)
 				)
 			)
@@ -16590,7 +17304,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 76.2 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -16780,7 +17494,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 68.58 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -17066,7 +17780,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 116.84 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -17161,7 +17875,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 85.09 59.69 0)
 			(hide yes)
 			(show_name no)

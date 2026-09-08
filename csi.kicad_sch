@@ -24080,7 +24080,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JetsonCarrier:XSON-8_1x1.95mm_P0.5mm"
+		(property "Footprint" "Argus-IC:NXP_XSON-8"
 			(at 379.73 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -25484,7 +25484,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JetsonCarrier:XSON-8_1x1.95mm_P0.5mm"
+		(property "Footprint" "Argus-IC:NXP_XSON-8"
 			(at 379.73 232.41 0)
 			(hide yes)
 			(show_name no)

@@ -9613,7 +9613,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "JetsonCarrier:XSON-8_1x1.95mm_P0.5mm"
+		(property "Footprint" "Argus-IC:NXP_XSON-8"
 			(at 293.37 173.99 0)
 			(hide yes)
 			(show_name no)
