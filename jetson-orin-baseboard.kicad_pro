@@ -379,10 +379,6 @@
           ""
         ],
         [
-          "solder_mask_bridge|191927000|94201600|27013e12-c845-49db-97aa-98a3bc354029|8c75654a-48a5-4487-abb0-76616b9bbb2f",
-          ""
-        ],
-        [
           "solder_mask_bridge|191927000|94201600|8c75654a-48a5-4487-abb0-76616b9bbb2f|05ae7b6c-f04d-42d8-a0bc-c659284450db",
           ""
         ],
@@ -392,14 +388,6 @@
         ],
         [
           "solder_mask_bridge|191927000|94701600|d7ff1bdf-673a-4fdf-9842-296b6212f299|8c75654a-48a5-4487-abb0-76616b9bbb2f",
-          ""
-        ],
-        [
-          "solder_mask_bridge|191927000|94976600|c462b4a8-4a15-498b-80d5-71fedf5b1c1a|d7ff1bdf-673a-4fdf-9842-296b6212f299",
-          ""
-        ],
-        [
-          "solder_mask_bridge|191927000|95001600|2b0e684c-9fef-464a-be7e-21e4d012debb|d7ff1bdf-673a-4fdf-9842-296b6212f299",
           ""
         ],
         [
@@ -2030,6 +2018,12 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DNI",
+          "name": "DNI",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -2037,7 +2031,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Footprint"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -2098,7 +2092,7 @@
         "uuid": "4b393452-b11e-416e-bc83-918ae3cab2f1"
       }
     ],
-    "used_designators": "Q3,U2,U5,U8,U10-12,U22-23,U27-28,U30,U34-36,H1-4,H9-10,D2-4,D6,D17-19,D22-24,D29-30,C12,C27,C29,C31-32,C34,C42,C53-55,C61-62,C64,C94-95,C108-119,TP15-16,TP26-27,TP32-33,R20,R41-43,R46,R52,R54,R56-58,R72-73,R99-108,R117,R127,R145-147,R149-152,R154,R186-191,#PWR1,#PWR18-25,#PWR27-28,#PWR35,#PWR48,#PWR53,#PWR56-57,#PWR61-63,#PWR65-70,#PWR87,#PWR90-92,#PWR94,#PWR99-106,#PWR108-111,#PWR113-114,#PWR134,#PWR136,#PWR138,#PWR145-146,#PWR157,#PWR159,#PWR163,#PWR166,#PWR173-175,#PWR178-179,#PWR181-185,#PWR188,#PWR191-194,#PWR198-199,#PWR204-205,#PWR208,#PWR213-214,#PWR218-219,#PWR222-224,#PWR226,#PWR230-236,#PWR257-260,#PWR262,#PWR271,#PWR274,#PWR276,#PWR279,#PWR284-287,#PWR289,#PWR291,#PWR302,#PWR304,#PWR309,J1,J3-9,J11-12,J16-21",
+    "used_designators": "Q3-4,Q11,Q13-14,U2,U5,U8,U10-15,U22-23,U27-28,U30,U34-36,H1-4,H9-10,D2-4,D6,D17-19,D22-24,D29-30,C7-10,C12,C27,C29,C31-32,C34,C42,C53-55,C61-62,C64,C66-67,C94-95,C108-119,TP15-16,TP26-27,TP32-33,R20,R41-43,R46,R52,R54-58,R60-61,R63,R72-73,R80,R83,R99-117,R127,R145-147,R149-152,R154,R186-195,#PWR1,#PWR10,#PWR13,#PWR15,#PWR18-25,#PWR27-33,#PWR35,#PWR46,#PWR48,#PWR53,#PWR56-57,#PWR61-63,#PWR65-70,#PWR87,#PWR90-92,#PWR94,#PWR99-106,#PWR108-111,#PWR113-114,#PWR120-121,#PWR134,#PWR136,#PWR138,#PWR145-146,#PWR157,#PWR159,#PWR163,#PWR166,#PWR173-175,#PWR178-179,#PWR181-185,#PWR188,#PWR191-194,#PWR198-199,#PWR204-205,#PWR208,#PWR213-214,#PWR218-219,#PWR222-224,#PWR226,#PWR230-236,#PWR257-260,#PWR262,#PWR271,#PWR274,#PWR276,#PWR279,#PWR284-287,#PWR289,#PWR291,#PWR302,#PWR304,#PWR309,J1,J3-9,J11-12,J16-21",
     "variants": []
   },
   "sheets": [
@@ -2123,6 +2117,10 @@
       "USB3, Recovery"
     ],
     [
+      "9e4bb917-1dcb-47fa-a924-cb24911b2aab",
+      "I2C Protection"
+    ],
+    [
       "41d8b114-08d9-401f-9e4d-c909a6d0b03e",
       "HDMI"
     ],
@@ -2137,6 +2135,14 @@
     [
       "59bef8df-3171-4033-8c33-797c4a36c09c",
       "Supply"
+    ],
+    [
+      "42d5de95-a524-40cc-8403-49a73c12b01a",
+      "Wire Protection"
+    ],
+    [
+      "2f02ab27-c66c-42d1-9d79-c894f595f556",
+      "Wire Protection1"
     ]
   ],
   "text_variables": {},
