@@ -10782,29 +10782,6 @@
 			)
 		)
 	)
-	(global_label "~{MB_SHUTDOWN_REQ}"
-		(shape output)
-		(at 221.615 139.7 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "85e09797-85c7-497e-a3d6-6530a23829b9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 243.2268 139.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "SPI0_MOSI"
 		(shape output)
 		(at 66.04 223.52 180)
@@ -10873,19 +10850,40 @@
 			)
 		)
 	)
-	(global_label "~{MB_SHUTDOWN_REQ}"
+	(global_label "SLEEP{slash}~{WAKE}_3V3"
 		(shape output)
-		(at 328.93 139.7 0)
-		(fields_autoplaced yes)
+		(at 221.615 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "b3de3cc9-b9ce-4d41-81db-85c70eb9ef3f")
+		(uuid "a7e06c97-1ca3-4f98-9c0f-82436fd20915")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 350.5418 139.7 0)
+			(at 239.395 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "SLEEP{slash}~{WAKE}_3V3"
+		(shape output)
+		(at 328.93 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b5306063-2deb-42be-97cc-54485a9ce05e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 346.71 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11135,7 +11133,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 255.905 238.125 0)
 			(hide yes)
 			(show_name no)
@@ -11750,7 +11748,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 213.36 243.205 0)
 			(hide yes)
 			(show_name no)
