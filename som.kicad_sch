@@ -13,6 +13,281 @@
 		(comment 2 "N. Khera")
 	)
 	(lib_symbols
+		(symbol "Argus-IC:NTS0102"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U31"
+				(at 10.16 6.604 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NTS0102"
+				(at 10.16 4.318 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+				)
+			)
+			(property "Footprint" "Argus-IC:NXP_XSON-8"
+				(at 35.56 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Datasheet" "http://www.farnell.com/datasheets/1760723.pdf"
+				(at 35.56 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "NTS0102GT"
+				(at 35.56 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Manufacturer" "NXP"
+				(at 35.56 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 35.56 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 35.56 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(symbol "NTS0102_1_1"
+				(rectangle
+					(start 2.54 2.54)
+					(end 17.78 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 -5.08 180)
+					(length 2.54)
+					(name "B_{2}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 -7.62 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 2.54)
+					(name "VCC_{A}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -5.08 0)
+					(length 2.54)
+					(name "A_{2}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -2.54 0)
+					(length 2.54)
+					(name "A_{1}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -7.62 0)
+					(length 2.54)
+					(name "OE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 0 180)
+					(length 2.54)
+					(name "VCC_{B}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 -2.54 180)
+					(length 2.54)
+					(name "B_{1}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -385,7 +660,7 @@
 				)
 			)
 			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 0 0)
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -435,7 +710,7 @@
 						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -7268,281 +7543,6 @@
 					)
 					(alternate "GPIO13" passive line)
 					(alternate "GPIO13(PWM)" passive line)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "JetsonCarrier:NTS0102"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U31"
-				(at 10.16 6.604 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "NTS0102"
-				(at 10.16 4.318 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-				)
-			)
-			(property "Footprint" "JetsonCarrier:XSON-8_1x1.95mm_P0.5mm"
-				(at 35.56 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Datasheet" "http://www.farnell.com/datasheets/1760723.pdf"
-				(at 35.56 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "NTS0102GT"
-				(at 35.56 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Manufacturer" "NXP"
-				(at 35.56 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Author" "Antmicro"
-				(at 35.56 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 35.56 -20.32 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(symbol "NTS0102_1_1"
-				(rectangle
-					(start 2.54 2.54)
-					(end 17.78 -10.16)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin bidirectional line
-					(at 20.32 -5.08 180)
-					(length 2.54)
-					(name "B_{2}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 20.32 -7.62 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 2.54)
-					(name "VCC_{A}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 0 -5.08 0)
-					(length 2.54)
-					(name "A_{2}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 0 -2.54 0)
-					(length 2.54)
-					(name "A_{1}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -7.62 0)
-					(length 2.54)
-					(name "OE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 20.32 0 180)
-					(length 2.54)
-					(name "VCC_{B}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 20.32 -2.54 180)
-					(length 2.54)
-					(name "B_{1}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
 				)
 			)
 			(embedded_fonts no)
@@ -21040,10 +21040,6 @@
 		(uuid "539fcf5b-46a6-4814-9640-394461a490bc")
 	)
 	(no_connect
-		(at 128.27 153.67)
-		(uuid "56e9a4d9-f4f5-4e3b-a74f-3903010207e7")
-	)
-	(no_connect
 		(at 104.14 133.35)
 		(uuid "5c144de8-ac42-4aa3-b418-09bcdf135cca")
 	)
@@ -21074,10 +21070,6 @@
 	(no_connect
 		(at 367.03 223.52)
 		(uuid "75e4b8b2-ba4e-4a58-af19-d8db8a706462")
-	)
-	(no_connect
-		(at 128.27 156.21)
-		(uuid "76e8653d-e8a0-4cab-b387-94073549715a")
 	)
 	(no_connect
 		(at 365.76 118.11)
@@ -21160,20 +21152,12 @@
 		(uuid "97f4f56b-c395-46fd-8922-0666fce58058")
 	)
 	(no_connect
-		(at 128.27 162.56)
-		(uuid "9807d9c1-c355-40d5-aa06-542b8a74e61e")
-	)
-	(no_connect
 		(at 60.96 43.18)
 		(uuid "9c7bcdd7-99ff-4023-8772-8d7c1ff31bff")
 	)
 	(no_connect
 		(at 365.76 124.46)
 		(uuid "a1ddfd4a-620a-41de-a6a4-6a2fe3beb0f0")
-	)
-	(no_connect
-		(at 128.27 160.02)
-		(uuid "a5b3f8fb-dfa5-43fc-be71-3d2d1c8fcccf")
 	)
 	(no_connect
 		(at 365.76 130.81)
@@ -25927,7 +25911,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "047b35b4-1f15-4e83-84c1-9dd2b5c1e6fd")
-		(property "Reference" "TP25"
+		(property "Reference" "TP2"
 			(at 288.29 189.2299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26037,7 +26021,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/68b67bb9-703f-4397-bb09-4d44d3a917ad"
-					(reference "TP25")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -26054,7 +26038,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "054c2f2e-57c8-4120-a81d-df7713babd16")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR09"
 			(at 43.18 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -26142,7 +26126,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/68b67bb9-703f-4397-bb09-4d44d3a917ad"
-					(reference "#PWR08")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -26160,7 +26144,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0ab90d75-80e1-4764-a1b0-b1178e87062f")
-		(property "Reference" "J15"
+		(property "Reference" "J1"
 			(at 247.65 185.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27063,7 +27047,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/68b67bb9-703f-4397-bb09-4d44d3a917ad"
-					(reference "J15")
+					(reference "J1")
 					(unit 5)
 				)
 			)
@@ -27080,7 +27064,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0e7a0c4a-1483-459e-b506-cc2e9f3ac1f1")
-		(property "Reference" "R103"
+		(property "Reference" "R12"
 			(at 207.01 149.352 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27156,7 +27140,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/68b67bb9-703f-4397-bb09-4d44d3a917ad"
-					(reference "R103")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -27173,7 +27157,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "13e479e2-a398-415d-ad3e-3ce3ea1dac89")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR02"
 			(at 22.86 127 0)
 			(hide yes)
 			(show_name no)
@@ -27261,7 +27245,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/68b67bb9-703f-4397-bb09-4d44d3a917ad"
-					(reference "#PWR03")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -27278,7 +27262,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "15525ad1-36de-4cee-80be-81b099a7bf99")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR016"
 			(at 105.41 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -27366,7 +27350,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/68b67bb9-703f-4397-bb09-4d44d3a917ad"
-					(reference "#PWR0112")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -27591,7 +27575,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2141e051-9f69-4105-9a33-c5b374fe482f")
-		(property "Reference" "R98"
+		(property "Reference" "R11"
 			(at 207.01 144.272 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27667,7 +27651,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/68b67bb9-703f-4397-bb09-4d44d3a917ad"
-					(reference "R98")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -27684,7 +27668,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "271cce63-576f-43e3-b64d-ae34d9fd1cd5")
-		(property "Reference" "R92"
+		(property "Reference" "R5"
 			(at 207.01 126.492 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27760,7 +27744,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/68b67bb9-703f-4397-bb09-4d44d3a917ad"
-					(reference "R92")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -27777,7 +27761,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "282922c1-f1ea-4be3-96ef-78c1c8eed95a")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR03"
 			(at 22.86 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -27865,7 +27849,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/68b67bb9-703f-4397-bb09-4d44d3a917ad"
-					(reference "#PWR02")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -28018,7 +28002,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "39738055-d203-4146-bacb-0ac78f2ba53c")
-		(property "Reference" "J15"
+		(property "Reference" "J1"
 			(at 246.38 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28921,7 +28905,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/68b67bb9-703f-4397-bb09-4d44d3a917ad"
-					(reference "J15")
+					(reference "J1")
 					(unit 2)
 				)
 			)
@@ -28939,7 +28923,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3a8d9633-a365-4614-be2f-431af28420c8")
-		(property "Reference" "J15"
+		(property "Reference" "J1"
 			(at 335.28 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29842,7 +29826,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/68b67bb9-703f-4397-bb09-4d44d3a917ad"
-					(reference "J15")
+					(reference "J1")
 					(unit 6)
 				)
 			)
@@ -29859,7 +29843,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3d4f11f2-192e-4b9e-8c09-e755d8993b6c")
-		(property "Reference" "R96"
+		(property "Reference" "R9"
 			(at 207.01 139.192 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29935,7 +29919,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/68b67bb9-703f-4397-bb09-4d44d3a917ad"
-					(reference "R96")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -29953,7 +29937,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3dc79144-e907-4182-a7d0-abfc4d72462e")
-		(property "Reference" "C38"
+		(property "Reference" "C9"
 			(at 97.282 244.094 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30041,7 +30025,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/68b67bb9-703f-4397-bb09-4d44d3a917ad"
-					(reference "C38")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -30058,7 +30042,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "44636c2d-0724-4eae-b559-b0b30e60c34e")
-		(property "Reference" "C35"
+		(property "Reference" "C6"
 			(at 49.276 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30146,7 +30130,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/68b67bb9-703f-4397-bb09-4d44d3a917ad"
-					(reference "C35")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -30269,7 +30253,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "52e014f8-447a-4433-b91f-d090b5374332")
-		(property "Reference" "J15"
+		(property "Reference" "J1"
 			(at 336.55 209.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31172,7 +31156,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/68b67bb9-703f-4397-bb09-4d44d3a917ad"
-					(reference "J15")
+					(reference "J1")
 					(unit 7)
 				)
 			)
@@ -31189,7 +31173,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "540c1075-30b9-477d-b879-3562ed20381a")
-		(property "Reference" "R95"
+		(property "Reference" "R8"
 			(at 207.01 136.652 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31265,7 +31249,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/68b67bb9-703f-4397-bb09-4d44d3a917ad"
-					(reference "R95")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -31282,7 +31266,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "58002a7e-324c-44d5-9075-be1e3960fd3d")
-		(property "Reference" "#PWR0150"
+		(property "Reference" "#PWR015"
 			(at 91.44 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -31370,7 +31354,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/68b67bb9-703f-4397-bb09-4d44d3a917ad"
-					(reference "#PWR0150")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -31479,7 +31463,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5c14b44f-06d0-4789-b8ed-ca59c7dde4ea")
-		(property "Reference" "#PWR0149"
+		(property "Reference" "#PWR014"
 			(at 91.44 243.84 0)
 			(hide yes)
 			(show_name no)
@@ -31566,7 +31550,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/68b67bb9-703f-4397-bb09-4d44d3a917ad"
-					(reference "#PWR0149")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -31583,7 +31567,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5e61ad72-a677-4f9c-a904-8c8fc83b182a")
-		(property "Reference" "R97"
+		(property "Reference" "R10"
 			(at 207.01 141.732 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31659,7 +31643,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/68b67bb9-703f-4397-bb09-4d44d3a917ad"
-					(reference "R97")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -31676,7 +31660,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6180293c-1c0f-401f-87b1-8e87dcf4c8d4")
-		(property "Reference" "#PWR0152"
+		(property "Reference" "#PWR011"
 			(at 60.96 243.84 0)
 			(hide yes)
 			(show_name no)
@@ -31737,7 +31721,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/68b67bb9-703f-4397-bb09-4d44d3a917ad"
-					(reference "#PWR0152")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -31754,7 +31738,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6462b7ca-2efa-439b-a333-e1a8466192d0")
-		(property "Reference" "R84"
+		(property "Reference" "R4"
 			(at 207.01 123.952 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31830,7 +31814,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/68b67bb9-703f-4397-bb09-4d44d3a917ad"
-					(reference "R84")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -31847,7 +31831,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "66a140d0-5e8d-46dd-8822-b7eb4f184d77")
-		(property "Reference" "R5"
+		(property "Reference" "R3"
 			(at 65.786 54.102 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31923,7 +31907,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/68b67bb9-703f-4397-bb09-4d44d3a917ad"
-					(reference "R5")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -31940,7 +31924,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "696faca9-8245-4578-97b4-b51890734a48")
-		(property "Reference" "D21"
+		(property "Reference" "D1"
 			(at 28.956 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32052,7 +32036,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/68b67bb9-703f-4397-bb09-4d44d3a917ad"
-					(reference "D21")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -32070,7 +32054,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "722f9eee-0c91-4f33-b145-64d26233af6d")
-		(property "Reference" "C37"
+		(property "Reference" "C8"
 			(at 55.118 244.094 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32158,7 +32142,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/68b67bb9-703f-4397-bb09-4d44d3a917ad"
-					(reference "C37")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -32175,7 +32159,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8b9469c2-8c7c-4096-9e75-117f57f564f9")
-		(property "Reference" "#PWR0153"
+		(property "Reference" "#PWR012"
 			(at 60.96 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -32262,7 +32246,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/68b67bb9-703f-4397-bb09-4d44d3a917ad"
-					(reference "#PWR0153")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -32279,7 +32263,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8cff267f-7d14-4baa-9a69-980b059ed213")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR07"
 			(at 43.18 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -32366,7 +32350,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/68b67bb9-703f-4397-bb09-4d44d3a917ad"
-					(reference "#PWR06")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -32384,7 +32368,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8d2c4c5c-8ab4-439b-8c9d-cac8699d0b2c")
-		(property "Reference" "J15"
+		(property "Reference" "J1"
 			(at 30.48 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33287,7 +33271,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/68b67bb9-703f-4397-bb09-4d44d3a917ad"
-					(reference "J15")
+					(reference "J1")
 					(unit 8)
 				)
 			)
@@ -33305,7 +33289,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "934f28ec-5b03-4c18-8e54-1f1d37aab6f3")
-		(property "Reference" "J15"
+		(property "Reference" "J1"
 			(at 158.75 182.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34206,7 +34190,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/68b67bb9-703f-4397-bb09-4d44d3a917ad"
-					(reference "J15")
+					(reference "J1")
 					(unit 4)
 				)
 			)
@@ -34329,7 +34313,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ac12af08-d52f-4208-b02c-e6b5ca350862")
-		(property "Reference" "#PWR0151"
+		(property "Reference" "#PWR013"
 			(at 87.63 270.51 0)
 			(hide yes)
 			(show_name no)
@@ -34417,7 +34401,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/68b67bb9-703f-4397-bb09-4d44d3a917ad"
-					(reference "#PWR0151")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -34434,7 +34418,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ad7f9403-f7c1-4877-93f9-c5b486f1d271")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR08"
 			(at 43.18 127 0)
 			(hide yes)
 			(show_name no)
@@ -34521,7 +34505,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/68b67bb9-703f-4397-bb09-4d44d3a917ad"
-					(reference "#PWR07")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -34643,7 +34627,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "afba4185-3cc2-47c9-ad71-02aaea7bb1ed")
-		(property "Reference" "R93"
+		(property "Reference" "R6"
 			(at 207.01 129.032 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34719,7 +34703,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/68b67bb9-703f-4397-bb09-4d44d3a917ad"
-					(reference "R93")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -34736,7 +34720,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b22d9847-d8db-47e0-88f6-e1f76031d78d")
-		(property "Reference" "R174"
+		(property "Reference" "R1"
 			(at 48.26 150.114 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34758,7 +34742,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 41.91 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -34812,7 +34796,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/68b67bb9-703f-4397-bb09-4d44d3a917ad"
-					(reference "R174")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -34829,7 +34813,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b2e5a535-c27e-4973-a506-a02ed382a2a3")
-		(property "Reference" "C36"
+		(property "Reference" "C7"
 			(at 49.022 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34917,160 +34901,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/68b67bb9-703f-4397-bb09-4d44d3a917ad"
-					(reference "C36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "JetsonCarrier:NTS0102")
-		(at 66.04 255.27 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b55aab3f-c25a-437c-a900-e01550e2dfbb")
-		(property "Reference" "U4"
-			(at 76.2 249.174 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NTS0102"
-			(at 76.2 251.206 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Argus-IC:NXP_XSON-8"
-			(at 101.6 262.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Datasheet" "http://www.farnell.com/datasheets/1760723.pdf"
-			(at 101.6 265.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Description" ""
-			(at 66.04 255.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "NTS0102GT"
-			(at 101.6 267.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer" "NXP"
-			(at 101.6 270.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 101.6 273.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 101.6 275.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "238d6bd8-70ea-46af-9748-3d119ad546d5")
-		)
-		(pin "2"
-			(uuid "2c603a82-0727-4447-bd88-239d25fc4242")
-		)
-		(pin "3"
-			(uuid "fa2c69eb-abc5-4386-8e03-434a4da5be46")
-		)
-		(pin "4"
-			(uuid "58d7129a-2ad7-43d7-92ab-5ddd826f7eae")
-		)
-		(pin "5"
-			(uuid "af1b9bcf-9d9c-4909-9a3f-8ea89b179a09")
-		)
-		(pin "6"
-			(uuid "c5af7269-805e-464e-beb3-614e74c6ba05")
-		)
-		(pin "7"
-			(uuid "b5d6b698-7082-49d7-ba9d-fed826c40681")
-		)
-		(pin "8"
-			(uuid "96575e0f-a039-49f5-8fbe-e9bda672ee30")
-		)
-		(instances
-			(project "jetson-orin-baseboard"
-				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/68b67bb9-703f-4397-bb09-4d44d3a917ad"
-					(reference "U4")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -35087,7 +34918,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b67c0b52-acf1-43c3-a1bc-33c0d5b88b88")
-		(property "Reference" "D15"
+		(property "Reference" "D2"
 			(at 103.632 168.656 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35163,7 +34994,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/68b67bb9-703f-4397-bb09-4d44d3a917ad"
-					(reference "D15")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -35181,7 +35012,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c5046ea4-3a30-4bea-91c2-42e348171ef3")
-		(property "Reference" "R12"
+		(property "Reference" "R15"
 			(at 286.766 115.062 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35257,7 +35088,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/68b67bb9-703f-4397-bb09-4d44d3a917ad"
-					(reference "R12")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -35275,7 +35106,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cf910547-73f8-4b18-a9f0-60feac52ea3f")
-		(property "Reference" "#PWR0313"
+		(property "Reference" "#PWR06"
 			(at 41.91 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -35363,7 +35194,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/68b67bb9-703f-4397-bb09-4d44d3a917ad"
-					(reference "#PWR0313")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -35380,7 +35211,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d365785d-176a-4a18-8bbf-47bb7ed1ed89")
-		(property "Reference" "R4"
+		(property "Reference" "R2"
 			(at 65.786 51.562 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35456,7 +35287,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/68b67bb9-703f-4397-bb09-4d44d3a917ad"
-					(reference "R4")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -35474,7 +35305,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e3fd7334-4dd0-428a-b9ee-e17c54236ca3")
-		(property "Reference" "J15"
+		(property "Reference" "J1"
 			(at 162.306 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36377,7 +36208,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/68b67bb9-703f-4397-bb09-4d44d3a917ad"
-					(reference "J15")
+					(reference "J1")
 					(unit 3)
 				)
 			)
@@ -36395,7 +36226,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ebf9b564-766a-4434-8478-e337bd7a5866")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR010"
 			(at 54.61 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -36483,7 +36314,162 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/68b67bb9-703f-4397-bb09-4d44d3a917ad"
-					(reference "#PWR012")
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Argus-IC:NTS0102")
+		(at 66.04 255.27 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee096bb1-9936-449a-957a-699875e6a3a8")
+		(property "Reference" "U1"
+			(at 76.2 248.285 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NTS0102"
+			(at 76.2 250.825 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Argus-IC:NXP_XSON-8"
+			(at 101.6 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "http://www.farnell.com/datasheets/1760723.pdf"
+			(at 101.6 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "NTS0102GT"
+			(at 101.6 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" "NXP"
+			(at 101.6 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 101.6 273.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 101.6 275.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "5"
+			(uuid "61d949be-e03c-483b-b3ba-d66c7e439148")
+		)
+		(pin "4"
+			(uuid "ff673c71-850c-49c7-ab09-cf98d82109ab")
+		)
+		(pin "8"
+			(uuid "d155e6a4-f40f-4e03-870a-780bbcf8f40e")
+		)
+		(pin "3"
+			(uuid "92a38b30-634e-470a-b48d-ff5bb144ea1d")
+		)
+		(pin "2"
+			(uuid "606c62ac-9ace-4cca-a591-aee26118c257")
+		)
+		(pin "1"
+			(uuid "3190a020-2699-47b6-be0b-a7997beb6c5d")
+		)
+		(pin "7"
+			(uuid "5704de94-9203-4456-b58a-8e28f8a656e5")
+		)
+		(pin "6"
+			(uuid "3a0a4806-b692-4225-95e8-a346cfeed35c")
+		)
+		(instances
+			(project "jetson-orin-baseboard"
+				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/68b67bb9-703f-4397-bb09-4d44d3a917ad"
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -36500,7 +36486,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "efc311ff-e0fc-464f-8a8d-a82e8e5015dc")
-		(property "Reference" "R94"
+		(property "Reference" "R7"
 			(at 207.01 131.572 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36576,7 +36562,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/68b67bb9-703f-4397-bb09-4d44d3a917ad"
-					(reference "R94")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -36699,7 +36685,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f3a08204-c8dc-4c12-8f91-3fdaf5cdde4f")
-		(property "Reference" "C46"
+		(property "Reference" "C5"
 			(at 49.276 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36787,7 +36773,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/68b67bb9-703f-4397-bb09-4d44d3a917ad"
-					(reference "C46")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -36804,7 +36790,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f7492600-0f9a-41df-bbf6-a33ec79c8a71")
-		(property "Reference" "R11"
+		(property "Reference" "R14"
 			(at 290.576 109.982 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36880,7 +36866,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/68b67bb9-703f-4397-bb09-4d44d3a917ad"
-					(reference "R11")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -36898,7 +36884,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f84fd1bf-d721-489a-a6c1-940e887b71e3")
-		(property "Reference" "TP7"
+		(property "Reference" "TP1"
 			(at 115.57 160.0199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37008,7 +36994,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/68b67bb9-703f-4397-bb09-4d44d3a917ad"
-					(reference "TP7")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -37025,7 +37011,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fb8d21f5-f4a7-428b-bc09-3273d537ac7e")
-		(property "Reference" "J15"
+		(property "Reference" "J1"
 			(at 59.436 129.286 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37115,6 +37101,7 @@
 		)
 		(property "License" "Apache-2.0"
 			(at 118.11 156.21 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37127,6 +37114,7 @@
 		)
 		(property "Author" "Antmicro"
 			(at 118.11 158.75 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37926,7 +37914,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/68b67bb9-703f-4397-bb09-4d44d3a917ad"
-					(reference "J15")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -38048,7 +38036,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ffa8bdb9-8a09-4adf-b365-2977a87ae55a")
-		(property "Reference" "R104"
+		(property "Reference" "R13"
 			(at 207.01 151.892 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38124,7 +38112,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/68b67bb9-703f-4397-bb09-4d44d3a917ad"
-					(reference "R104")
+					(reference "R13")
 					(unit 1)
 				)
 			)

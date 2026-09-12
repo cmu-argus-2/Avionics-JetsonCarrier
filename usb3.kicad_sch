@@ -1246,7 +1246,7 @@
 							)
 						)
 					)
-					(number "S1"
+					(number "SH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1889,7 +1889,7 @@
 				)
 			)
 			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 0 0)
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1939,7 +1939,7 @@
 						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -10132,7 +10132,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "021b86d9-a11d-477a-b7b7-0b44778d52b8")
-		(property "Reference" "D24"
+		(property "Reference" "D11"
 			(at 170.942 203.454 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10232,7 +10232,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "D24")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -10250,7 +10250,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "025fe4a4-7521-417c-a7c4-b826e9081d63")
-		(property "Reference" "U28"
+		(property "Reference" "U11"
 			(at 328.295 183.515 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10369,7 +10369,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "U28")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -10387,7 +10387,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "05526b58-328d-412b-a8d1-be0d81e584f9")
-		(property "Reference" "#PWR0192"
+		(property "Reference" "#PWR060"
 			(at 140.97 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -10474,7 +10474,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "#PWR0192")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -10491,7 +10491,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "07ee55bf-c703-4ca1-9828-01d4f4474ca0")
-		(property "Reference" "U27"
+		(property "Reference" "U5"
 			(at 105.41 49.022 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10583,7 +10583,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "U27")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -10601,7 +10601,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "102b5383-15de-4fdb-a3d1-22001435a831")
-		(property "Reference" "U22"
+		(property "Reference" "U9"
 			(at 149.225 132.715 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10720,7 +10720,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "U22")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -10737,7 +10737,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1307f855-839e-4659-b15d-4bbd2153b6ab")
-		(property "Reference" "#PWR0194"
+		(property "Reference" "#PWR066"
 			(at 168.91 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -10824,7 +10824,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "#PWR0194")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -10842,7 +10842,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1df2fbfd-3451-4edc-86f7-904ad47317a6")
-		(property "Reference" "C114"
+		(property "Reference" "C40"
 			(at 143.002 57.912 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10933,7 +10933,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "C114")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -10951,7 +10951,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1ed6d7e2-8100-4388-9493-50b26c25f02a")
-		(property "Reference" "C117"
+		(property "Reference" "C37"
 			(at 89.662 181.102 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11042,7 +11042,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "C117")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -11060,7 +11060,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "24b3e3cd-fa2b-48bb-a42d-acdf53399d6d")
-		(property "Reference" "C113"
+		(property "Reference" "C38"
 			(at 134.112 57.912 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11138,7 +11138,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "C113")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -11156,7 +11156,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2febcaed-bdf6-4004-82ca-4c2d127fad7d")
-		(property "Reference" "#PWR0198"
+		(property "Reference" "#PWR054"
 			(at 116.84 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -11243,7 +11243,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "#PWR0198")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -11261,7 +11261,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "32308cfe-4d68-47be-93eb-4d870ffaab79")
-		(property "Reference" "#PWR0146"
+		(property "Reference" "#PWR058"
 			(at 132.08 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -11348,7 +11348,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "#PWR0146")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -11365,7 +11365,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "357a0bb5-954d-46f9-a721-3528e01e1107")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR076"
 			(at 349.25 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -11453,7 +11453,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "#PWR0106")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -11470,7 +11470,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3601eb4e-117f-4f37-903b-ae4c95be3539")
-		(property "Reference" "R102"
+		(property "Reference" "R46"
 			(at 307.086 141.732 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11493,7 +11493,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 309.88 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -11548,7 +11548,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "R102")
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -11566,7 +11566,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "36e970ca-df06-4a6a-84c3-417f0fdc99cf")
-		(property "Reference" "Q3"
+		(property "Reference" "Q1"
 			(at 268.605 107.9501 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11636,7 +11636,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "Q3")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -11653,7 +11653,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "47317b02-28e1-4891-a23f-184721d64193")
-		(property "Reference" "D23"
+		(property "Reference" "D9"
 			(at 155.956 195.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11731,7 +11731,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "D23")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -11749,7 +11749,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "47a045ef-7ada-47f3-ba5a-0ed14c5f6731")
-		(property "Reference" "#PWR0214"
+		(property "Reference" "#PWR053"
 			(at 87.63 193.675 0)
 			(hide yes)
 			(show_name no)
@@ -11836,7 +11836,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "#PWR0214")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -11853,7 +11853,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "490a1196-027a-4284-a49c-06c8d2b4cfee")
-		(property "Reference" "R145"
+		(property "Reference" "R37"
 			(at 79.756 242.062 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11931,7 +11931,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "R145")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -11948,7 +11948,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "493b0bbd-92ca-4b06-a8a7-b9300708fdf6")
-		(property "Reference" "#PWR0274"
+		(property "Reference" "#PWR075"
 			(at 339.09 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -12036,7 +12036,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "#PWR0274")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -12053,7 +12053,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4b39c680-e196-498e-b4a6-50ee0f469daa")
-		(property "Reference" "R190"
+		(property "Reference" "R43"
 			(at 175.26 196.596 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12131,7 +12131,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "R190")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -12149,7 +12149,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4dd9b9ae-a090-4050-ba77-114cad566fdd")
-		(property "Reference" "R106"
+		(property "Reference" "R47"
 			(at 347.726 111.506 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12227,7 +12227,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "R106")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -12245,7 +12245,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4e71d117-4d82-4d82-90ad-40c166aac3b5")
-		(property "Reference" "#PWR0224"
+		(property "Reference" "#PWR064"
 			(at 158.75 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -12332,7 +12332,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "#PWR0224")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -12350,7 +12350,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "52c0679a-5d40-4231-bb1c-0cfa45f39fe8")
-		(property "Reference" "#PWR0226"
+		(property "Reference" "#PWR065"
 			(at 158.75 266.7 0)
 			(hide yes)
 			(show_name no)
@@ -12437,7 +12437,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "#PWR0226")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -12455,7 +12455,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5500c522-d69f-4874-8651-da7f59a24c68")
-		(property "Reference" "#PWR0136"
+		(property "Reference" "#PWR056"
 			(at 130.81 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -12542,7 +12542,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "#PWR0136")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -12560,7 +12560,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "560f33e4-02eb-4949-8cae-9e76023c64e5")
-		(property "Reference" "U23"
+		(property "Reference" "U7"
 			(at 120.65 132.715 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12679,7 +12679,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "U23")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -12696,7 +12696,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "591aacc2-2bef-4d6f-a2d3-ffc8132c55f7")
-		(property "Reference" "C115"
+		(property "Reference" "C33"
 			(at 80.772 248.412 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12774,7 +12774,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "C115")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -12791,7 +12791,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "604ec311-cc07-41b6-bdfb-9e17e4f18be4")
-		(property "Reference" "#PWR0213"
+		(property "Reference" "#PWR052"
 			(at 87.63 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -12852,7 +12852,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "#PWR0213")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -12870,7 +12870,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "60a1b104-1e88-42a6-9513-eb55fca36e16")
-		(property "Reference" "#PWR0205"
+		(property "Reference" "#PWR078"
 			(at 356.87 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -12958,7 +12958,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "#PWR0205")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -12975,7 +12975,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "631d42dd-d6c8-4a1c-a796-a841c49419a3")
-		(property "Reference" "#PWR0138"
+		(property "Reference" "#PWR050"
 			(at 87.63 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -13036,7 +13036,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "#PWR0138")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -13054,7 +13054,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6462bb5d-d2de-470f-9e15-143f701138fe")
-		(property "Reference" "C119"
+		(property "Reference" "C41"
 			(at 143.002 195.072 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13145,7 +13145,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "C119")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -13162,7 +13162,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "64661ab4-bac6-481a-afef-7ff0b2b05cfa")
-		(property "Reference" "U30"
+		(property "Reference" "U6"
 			(at 105.41 186.182 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13254,7 +13254,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "U30")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -13272,7 +13272,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "671d056a-38fb-4bab-8885-2a70e1048dc3")
-		(property "Reference" "#PWR0223"
+		(property "Reference" "#PWR061"
 			(at 140.97 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -13359,7 +13359,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "#PWR0223")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -13377,7 +13377,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "759a1c5c-b051-4dba-b5d9-17c40eb25bb5")
-		(property "Reference" "#PWR0231"
+		(property "Reference" "#PWR070"
 			(at 184.15 265.43 0)
 			(hide yes)
 			(show_name no)
@@ -13464,7 +13464,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "#PWR0231")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -13481,7 +13481,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "76ac10e6-633d-4da2-92f9-d10789e328e1")
-		(property "Reference" "C111"
+		(property "Reference" "C34"
 			(at 84.328 116.332 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13559,7 +13559,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "C111")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -13576,7 +13576,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "79710995-c3e4-48f1-add6-8160c9bb6896")
-		(property "Reference" "R149"
+		(property "Reference" "R32"
 			(at 74.676 50.546 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13654,7 +13654,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "R149")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -13671,7 +13671,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7cd52b7b-12e1-47fa-875f-6cd27435220a")
-		(property "Reference" "R188"
+		(property "Reference" "R39"
 			(at 87.63 198.12 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13749,7 +13749,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "R188")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -13766,7 +13766,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7f0bf3d6-12e3-492a-b2e4-69f2a086ab33")
-		(property "Reference" "#PWR0309"
+		(property "Reference" "#PWR071"
 			(at 271.78 123.825 0)
 			(hide yes)
 			(show_name no)
@@ -13854,187 +13854,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "#PWR0309")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
-		(at 349.25 149.86 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "80a85e18-61a3-41ce-865e-03a87ecdf120")
-		(property "Reference" "J4"
-			(at 363.22 145.796 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "USB4105-GF-A"
-			(at 376.174 148.336 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
-			(at 345.44 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 345.44 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
-			(at 349.25 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "GCT"
-			(at 311.15 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MPN" "USB4105-GF-A"
-			(at 330.2 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 311.15 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 311.15 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "A1"
-			(uuid "64de32fd-620c-44ce-aac4-c02a602fa283")
-		)
-		(pin "A12"
-			(uuid "bd566a78-17ff-4137-8ac0-ffc4ac63860c")
-		)
-		(pin "A4"
-			(uuid "b3d289d9-db86-469d-beaa-cf41446c14b2")
-		)
-		(pin "A5"
-			(uuid "a427310a-d52e-48a2-b35d-6842fe22fc91")
-		)
-		(pin "A6"
-			(uuid "7fc13c68-5c66-4622-9729-e87563cc61fb")
-		)
-		(pin "A7"
-			(uuid "943237d1-765b-4975-ab57-7abc361fd10b")
-		)
-		(pin "A8"
-			(uuid "c0fb7460-2dd4-4943-8490-0879e0c1aeae")
-		)
-		(pin "A9"
-			(uuid "1e731b75-8452-4143-a4cd-02dd4b4bf707")
-		)
-		(pin "B1"
-			(uuid "faff9300-b0b7-47f3-a6a2-5d859af31b0b")
-		)
-		(pin "B12"
-			(uuid "10cfd9e4-a204-458f-b38e-4f7b74b7268b")
-		)
-		(pin "B4"
-			(uuid "f428538b-3ba8-4d9f-ada7-9bd312b2e101")
-		)
-		(pin "B5"
-			(uuid "925d2a67-c4d7-484a-9235-8221ae78dad2")
-		)
-		(pin "B6"
-			(uuid "b4fbe817-4697-4dbb-9a7a-5ec8afe4c027")
-		)
-		(pin "B7"
-			(uuid "ae99e258-bc0c-4d21-bff3-6ec83557086c")
-		)
-		(pin "B8"
-			(uuid "cd0f576a-dabe-4204-a1f0-9e9f8cf225f2")
-		)
-		(pin "B9"
-			(uuid "2fccfa3c-cbde-414e-97a9-52e320f5345f")
-		)
-		(pin "S1"
-			(uuid "87ba8f4f-607a-4834-8b8f-f4239788840d")
-		)
-		(instances
-			(project "jetson-orin-baseboard"
-				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "J4")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -14051,7 +13871,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "82bcb6b4-4189-4148-b81d-ebd02fca1ba9")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR048"
 			(at 68.58 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -14113,7 +13933,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "#PWR087")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -14131,7 +13951,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "87aafb0c-69dc-4750-9504-d2c09e58c5d6")
-		(property "Reference" "U34"
+		(property "Reference" "U8"
 			(at 120.65 269.875 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14250,7 +14070,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "U34")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -14268,7 +14088,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8888df13-58fd-4f1f-813f-d7caa5e5781f")
-		(property "Reference" "J17"
+		(property "Reference" "J5"
 			(at 186.69 235.3055 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14374,7 +14194,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "J17")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -14391,7 +14211,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8fb23fb4-34e7-41ba-8988-0758e986f503")
-		(property "Reference" "D29"
+		(property "Reference" "D12"
 			(at 336.296 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14469,7 +14289,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "D29")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -14487,7 +14307,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9217f0c5-fbf2-4f17-bfe9-7949eb52c7ab")
-		(property "Reference" "#PWR0199"
+		(property "Reference" "#PWR068"
 			(at 170.18 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -14574,7 +14394,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "#PWR0199")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -14592,7 +14412,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "92c880e9-5b0b-4c10-9764-751cc43790b8")
-		(property "Reference" "U35"
+		(property "Reference" "U10"
 			(at 149.225 269.875 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14711,7 +14531,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "U35")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -14728,7 +14548,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9357b057-34f0-42a3-8377-9ac448921055")
-		(property "Reference" "R101"
+		(property "Reference" "R45"
 			(at 307.086 138.684 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14751,7 +14571,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 309.88 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -14806,7 +14626,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "R101")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -14824,7 +14644,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "971bd817-c867-467a-aa24-dd6665b1fe84")
-		(property "Reference" "#PWR0218"
+		(property "Reference" "#PWR055"
 			(at 116.84 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -14911,7 +14731,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "#PWR0218")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -14929,7 +14749,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "975e27c7-783e-4989-ada4-04d7587e571e")
-		(property "Reference" "#PWR0208"
+		(property "Reference" "#PWR074"
 			(at 337.82 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -15016,7 +14836,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "#PWR0208")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -15033,7 +14853,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "99650006-e322-4012-9056-d1e80f92de60")
-		(property "Reference" "R189"
+		(property "Reference" "R41"
 			(at 123.19 197.866 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15111,7 +14931,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "R189")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -15128,7 +14948,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9a7b788f-c6cd-456c-9296-afec27b81dda")
-		(property "Reference" "R146"
+		(property "Reference" "R36"
 			(at 75.946 239.522 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15206,7 +15026,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "R146")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -15223,7 +15043,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9cad3efa-8f84-469d-9293-7e249045a93e")
-		(property "Reference" "D17"
+		(property "Reference" "D8"
 			(at 155.956 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15301,7 +15121,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "D17")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -15319,7 +15139,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a349f135-0fc5-4c95-8ae3-96c1a9527933")
-		(property "Reference" "#PWR0232"
+		(property "Reference" "#PWR069"
 			(at 175.26 265.43 0)
 			(hide yes)
 			(show_name no)
@@ -15406,7 +15226,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "#PWR0232")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -15424,7 +15244,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a68c4d50-cd22-41ed-92c2-c441ab42a1fb")
-		(property "Reference" "#PWR0145"
+		(property "Reference" "#PWR051"
 			(at 87.63 56.515 0)
 			(hide yes)
 			(show_name no)
@@ -15511,7 +15331,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "#PWR0145")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -15529,7 +15349,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "abe388f0-2783-494b-94bb-7df3bfc50809")
-		(property "Reference" "C112"
+		(property "Reference" "C36"
 			(at 89.662 43.942 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15620,7 +15440,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "C112")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -15638,7 +15458,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ac019bae-5458-4c47-b65a-26e318b69a6d")
-		(property "Reference" "D19"
+		(property "Reference" "D13"
 			(at 345.186 117.094 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15739,7 +15559,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "D19")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -15756,7 +15576,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ac767611-1873-493a-a0bb-9886f704b28d")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR049"
 			(at 68.58 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -15818,7 +15638,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "#PWR090")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -15836,7 +15656,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b057d0d8-a454-4a95-8535-f86047b2b5da")
-		(property "Reference" "#PWR0219"
+		(property "Reference" "#PWR057"
 			(at 130.81 266.7 0)
 			(hide yes)
 			(show_name no)
@@ -15923,7 +15743,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "#PWR0219")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -15940,7 +15760,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b28b607d-fca4-472d-ba3b-034c1b05e9ee")
-		(property "Reference" "R151"
+		(property "Reference" "R34"
 			(at 77.216 50.546 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16018,7 +15838,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "R151")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -16036,7 +15856,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b729ae18-c1bc-4ad0-9e3c-71c6f9084dc5")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR072"
 			(at 297.18 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -16124,7 +15944,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "#PWR019")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -16142,7 +15962,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b859fc85-88a8-4abd-8ef3-c223537c3aee")
-		(property "Reference" "#PWR0193"
+		(property "Reference" "#PWR062"
 			(at 158.75 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -16229,7 +16049,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "#PWR0193")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -16246,7 +16066,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b925b153-6e06-4f76-a3e1-e715da1bdfbe")
-		(property "Reference" "R107"
+		(property "Reference" "R44"
 			(at 284.734 111.506 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16324,7 +16144,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "R107")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -16342,7 +16162,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "babc1e6b-e498-4451-8483-4b1e512aecb0")
-		(property "Reference" "C108"
+		(property "Reference" "C42"
 			(at 304.038 112.522 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16420,7 +16240,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "C108")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -16437,7 +16257,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bb983e4a-326b-4eaf-9c20-0e2a4cb1c97c")
-		(property "Reference" "#PWR0302"
+		(property "Reference" "#PWR073"
 			(at 309.88 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -16525,7 +16345,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "#PWR0302")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -16542,7 +16362,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bce3e12e-6b85-449f-8cbd-2cc0dd10bcc5")
-		(property "Reference" "#PWR0230"
+		(property "Reference" "#PWR067"
 			(at 168.91 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -16629,7 +16449,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "#PWR0230")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -16647,7 +16467,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bd990d67-9ba0-4683-99db-725bb7594aea")
-		(property "Reference" "#PWR0222"
+		(property "Reference" "#PWR059"
 			(at 132.08 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -16734,7 +16554,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "#PWR0222")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -16753,7 +16573,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc6ea85b-878f-42e7-ab35-4eba5354e57d")
-		(property "Reference" "J1"
+		(property "Reference" "J4"
 			(at 181.61 100.9649 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16841,7 +16661,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "J1")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -16858,7 +16678,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cdb9e9ff-20ee-46f3-b439-1ce6fdb1edb4")
-		(property "Reference" "C116"
+		(property "Reference" "C35"
 			(at 84.328 253.492 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16936,7 +16756,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "C116")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -16954,7 +16774,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d07a7ba9-a8a2-4498-9fa6-0fbc6ad945ca")
-		(property "Reference" "#PWR0204"
+		(property "Reference" "#PWR077"
 			(at 349.25 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -17042,7 +16862,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "#PWR0204")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -17059,7 +16879,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d59bc9c0-87b7-4160-815e-cd9e4e8ee107")
-		(property "Reference" "D18"
+		(property "Reference" "D10"
 			(at 170.942 66.294 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17159,7 +16979,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "D18")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -17177,7 +16997,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dcf34187-00dc-44be-96e4-6c35b3ad5e1e")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR063"
 			(at 158.75 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -17264,7 +17084,135 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "#PWR0134")
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
+		(at 349.25 149.86 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e20e2cad-40d5-4f77-8d7f-4062e58ec1ed")
+		(property "Reference" "J6"
+			(at 360.68 148.5899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "USB_C_Receptacle_USB2.0_16P"
+			(at 360.68 151.1299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+			(at 345.44 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(at 345.44 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 349.25 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "A8"
+			(uuid "1d03f333-dfe4-49e1-b3f5-7e639a6625b3")
+		)
+		(pin "A7"
+			(uuid "8be42c1b-4a45-4697-8691-a0deb3c1ac14")
+		)
+		(pin "A6"
+			(uuid "8a250df1-89fc-41be-97e5-8b3bb8ce34b5")
+		)
+		(pin "A5"
+			(uuid "353542be-2278-4748-a37a-0724d6393ac5")
+		)
+		(pin "A4"
+			(uuid "7e198087-870d-42ba-8d52-4e3ee0dcf730")
+		)
+		(pin "A1"
+			(uuid "42b0d7df-e52c-4d6e-acf5-c193fca82f68")
+		)
+		(pin "A9"
+			(uuid "0ca3e666-2e2f-4566-a3f0-76ac8fe1c68e")
+		)
+		(pin "B8"
+			(uuid "0eceeb53-7666-4aa4-af78-d5344648133a")
+		)
+		(pin "B9"
+			(uuid "75682789-65aa-4128-9c36-a4f89398577e")
+		)
+		(pin "B7"
+			(uuid "0f51b821-d289-4cc6-9fd2-88a39b5ed656")
+		)
+		(pin "B12"
+			(uuid "9eeabf1f-20b7-46f3-974a-6d119bf5aa5f")
+		)
+		(pin "SH"
+			(uuid "c1f3d8f4-cb87-4604-b8d8-65946f2bb27b")
+		)
+		(pin "B5"
+			(uuid "37bd1c91-904a-401d-9901-6167580d849f")
+		)
+		(pin "B6"
+			(uuid "6b48a6b7-4f3d-4d7e-8d4f-f5826d5bb16f")
+		)
+		(pin "B1"
+			(uuid "b2a4812b-f3d9-4fbd-8f23-031eb784ee04")
+		)
+		(pin "A12"
+			(uuid "a8dbd545-f716-4d78-957b-d6a9f5a34842")
+		)
+		(pin "B4"
+			(uuid "e32aaa94-7b49-4dc3-8241-9abccf9c542a")
+		)
+		(instances
+			(project "jetson-orin-baseboard"
+				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -17281,7 +17229,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e2fc028d-5bcc-49fc-ae98-452fc02d9e5e")
-		(property "Reference" "R187"
+		(property "Reference" "R35"
 			(at 77.216 187.706 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17359,7 +17307,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "R187")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -17376,7 +17324,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eb420a50-a0e8-4818-95e0-99a75b3a0dcc")
-		(property "Reference" "C110"
+		(property "Reference" "C32"
 			(at 80.772 111.252 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17454,7 +17402,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "C110")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -17471,7 +17419,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ee2d0889-9f17-4fcd-b6b5-65ff51164a7e")
-		(property "Reference" "R150"
+		(property "Reference" "R33"
 			(at 74.676 187.706 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17549,7 +17497,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "R150")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -17567,7 +17515,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f012a51a-140c-48cd-b5b7-c653d2f6c3e9")
-		(property "Reference" "C118"
+		(property "Reference" "C39"
 			(at 134.112 195.072 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17645,7 +17593,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "C118")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -17662,7 +17610,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f09e84fa-d665-4d93-b6eb-29bd23583a10")
-		(property "Reference" "R186"
+		(property "Reference" "R42"
 			(at 175.26 59.436 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17740,7 +17688,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "R186")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -17757,7 +17705,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f6d434e7-69ff-4af2-9244-dfcec56869c0")
-		(property "Reference" "R154"
+		(property "Reference" "R40"
 			(at 123.19 60.706 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17835,7 +17783,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "R154")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -17852,7 +17800,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fb50221f-4dc4-49da-929f-f8c093e30aa6")
-		(property "Reference" "R152"
+		(property "Reference" "R38"
 			(at 87.63 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17930,7 +17878,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd"
-					(reference "R152")
+					(reference "R38")
 					(unit 1)
 				)
 			)

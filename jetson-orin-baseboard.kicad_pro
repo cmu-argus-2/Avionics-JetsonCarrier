@@ -52,9 +52,9 @@
         "zones": {
           "45_degree_only": false,
           "border_display_style": 2,
-          "border_hatch_pitch": 0.5,
-          "corner_radius": 0.0,
-          "corner_smoothing": 0,
+          "border_hatch_pitch": 0.508,
+          "corner_radius": 0.25,
+          "corner_smoothing": 2,
           "fill_mode": 0,
           "hatch_gap": 1.5,
           "hatch_orientation": 0.0,
@@ -63,11 +63,11 @@
           "hatch_thickness": 1.0,
           "min_clearance": 0.1524,
           "min_island_area": 10.0,
-          "min_thickness": 0.25,
+          "min_thickness": 0.254,
           "pad_connection": 2,
-          "remove_islands": 1,
-          "thermal_relief_gap": 0.5,
-          "thermal_relief_spoke_width": 0.5
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.508,
+          "thermal_relief_spoke_width": 0.508
         }
       },
       "diff_pair_dimensions": [
@@ -1056,8 +1056,8 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.508,
-          "drill": 0.254
+          "diameter": 0.6,
+          "drill": 0.3
         },
         {
           "diameter": 1.0,
@@ -2104,7 +2104,7 @@
         "uuid": "4b393452-b11e-416e-bc83-918ae3cab2f1"
       }
     ],
-    "used_designators": "Q3-4,Q9,Q11,Q13-14,U2,U5,U8,U10-17,U22-23,U27-28,U30,U34-36,H1-4,H9-10,D2-4,D6,D17-19,D22-24,D29-30,C7-10,C12,C27,C29,C31-32,C34,C42,C53-57,C61-62,C64,C66-67,C94-95,C108-119,TP15-16,TP26-27,TP32-33,R20,R41-43,R46,R52,R54-58,R60-61,R63,R72-73,R80,R83,R99-117,R127,R145-147,R149-152,R154,R186-195,#PWR1,#PWR10,#PWR13,#PWR15,#PWR18-25,#PWR27-33,#PWR35,#PWR46-49,#PWR53,#PWR56-57,#PWR60-63,#PWR65-70,#PWR87,#PWR90-92,#PWR94,#PWR99-106,#PWR108-111,#PWR113-121,#PWR134,#PWR136,#PWR138,#PWR145-146,#PWR157,#PWR159,#PWR163,#PWR166,#PWR173-175,#PWR178-179,#PWR181-185,#PWR188,#PWR191-194,#PWR198-199,#PWR204-205,#PWR208,#PWR213-214,#PWR218-219,#PWR222-224,#PWR226,#PWR230-236,#PWR257-260,#PWR262,#PWR271,#PWR274,#PWR276,#PWR279,#PWR284-287,#PWR289,#PWR291,#PWR302,#PWR304,#PWR309,J1,J3-9,J11-12,J16-21",
+    "used_designators": "SW1,RN1-2,J1-21,Y1,#PWR1-266,#PWR271,#PWR274,#PWR276,#PWR279,#PWR284-287,#PWR289,#PWR291,#PWR302,#PWR304,#PWR309,R1-147,R149-152,R154,R186-195,TP1-24,TP26-27,TP32-33,C1-101,C108-119,H1-7,H9-10,BT1,D1-25,D29-30,U1-36,Q1-11,Q13-14,BTN1-2,FB1-2,L1-2",
     "variants": []
   },
   "sheets": [
