@@ -13666,7 +13666,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "JetsonCarrier:TP_SMD_0.75mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 106.68 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -13984,7 +13984,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "JetsonCarrier:TP_SMD_0.75mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 106.68 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -14595,7 +14595,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "JetsonCarrier:TP_SMD_0.75mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 106.68 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -15738,7 +15738,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "JetsonCarrier:TP_SMD_0.75mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 106.68 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -19937,7 +19937,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "JetsonCarrier:TP_SMD_0.75mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 106.68 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -21643,7 +21643,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "JetsonCarrier:TP_SMD_0.75mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 106.68 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -24461,7 +24461,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "JetsonCarrier:TP_SMD_0.75mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 106.68 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -25160,7 +25160,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "JetsonCarrier:TP_SMD_0.75mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 106.68 101.6 0)
 			(hide yes)
 			(show_name no)

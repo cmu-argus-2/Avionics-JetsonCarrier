@@ -16443,7 +16443,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "JetsonCarrier:TP_SMD_0.75mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 133.35 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -17975,7 +17975,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "JetsonCarrier:TP_SMD_0.75mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 133.35 168.91 0)
 			(hide yes)
 			(show_name no)

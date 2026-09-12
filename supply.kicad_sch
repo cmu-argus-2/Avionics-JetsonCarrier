@@ -23803,49 +23803,49 @@
 			)
 		)
 		(pin "6"
-			(uuid "5c682031-1bf4-4818-876a-9333bae712c7")
+			(uuid "5c682031-1bf4-4818-876a-9333bae712c8")
 		)
 		(pin "2"
-			(uuid "69e84f7f-d45f-414c-8275-0f67d493d4d8")
+			(uuid "69e84f7f-d45f-414c-8275-0f67d493d4d9")
 		)
 		(pin "7"
-			(uuid "ffcba0a5-3ac2-4bdd-9a21-846926ea531e")
+			(uuid "ffcba0a5-3ac2-4bdd-9a21-846926ea531f")
 		)
 		(pin "10"
-			(uuid "4098351b-bbec-437c-9d82-db6f63cb7737")
+			(uuid "4098351b-bbec-437c-9d82-db6f63cb7738")
 		)
 		(pin "1"
-			(uuid "1b7bb50b-f0ac-4a61-9eeb-b6b4ceb66aaf")
+			(uuid "1b7bb50b-f0ac-4a61-9eeb-b6b4ceb66ab0")
 		)
 		(pin "9"
-			(uuid "b1f441f3-c4c9-46e5-be95-fb7d4df03fb0")
+			(uuid "b1f441f3-c4c9-46e5-be95-fb7d4df03fb1")
 		)
 		(pin "8"
-			(uuid "c8ca806c-07f2-45c2-9e01-b48075e8ca9c")
+			(uuid "c8ca806c-07f2-45c2-9e01-b48075e8ca9d")
 		)
 		(pin "4"
-			(uuid "bd8928ef-6ab2-49fd-b2c1-525e0af23153")
+			(uuid "bd8928ef-6ab2-49fd-b2c1-525e0af23154")
 		)
 		(pin "13"
-			(uuid "0271ee20-5e0a-4b78-840b-6571deef24c3")
+			(uuid "0271ee20-5e0a-4b78-840b-6571deef24c4")
 		)
 		(pin "11"
-			(uuid "34f30cd1-63de-434b-aa46-45846ac660d9")
+			(uuid "34f30cd1-63de-434b-aa46-45846ac660da")
 		)
 		(pin "7"
-			(uuid "0b1e1021-aa6c-4337-b94e-c511d7cbaa60")
+			(uuid "0b1e1021-aa6c-4337-b94e-c511d7cbaa61")
 		)
 		(pin "12"
-			(uuid "b7a13976-f70c-40ae-b073-addebeb74e65")
+			(uuid "b7a13976-f70c-40ae-b073-addebeb74e66")
 		)
 		(pin "3"
-			(uuid "61f69617-0b43-44f4-ab08-272e2077d4a7")
+			(uuid "61f69617-0b43-44f4-ab08-272e2077d4a8")
 		)
 		(pin "14"
-			(uuid "b4fcd9de-02be-4604-96eb-1cc88581eb15")
+			(uuid "b4fcd9de-02be-4604-96eb-1cc88581eb16")
 		)
 		(pin "5"
-			(uuid "0cdbf258-9920-4674-8d6f-890e1cc5847a")
+			(uuid "0cdbf258-9920-4674-8d6f-890e1cc5847b")
 		)
 		(instances
 			(project "jetson-orin-baseboard"
@@ -24850,7 +24850,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "JetsonCarrier:TP_SMD_0.75mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 378.46 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -31538,7 +31538,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "JetsonCarrier:TP_SMD_0.75mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 359.41 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -34273,7 +34273,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "JetsonCarrier:TP_SMD_0.75mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 398.78 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -34863,49 +34863,49 @@
 			)
 		)
 		(pin "6"
-			(uuid "5c682031-1bf4-4818-876a-9333bae712c7")
+			(uuid "5c682031-1bf4-4818-876a-9333bae712c9")
 		)
 		(pin "2"
-			(uuid "69e84f7f-d45f-414c-8275-0f67d493d4d8")
+			(uuid "69e84f7f-d45f-414c-8275-0f67d493d4da")
 		)
 		(pin "7"
-			(uuid "ffcba0a5-3ac2-4bdd-9a21-846926ea531e")
+			(uuid "ffcba0a5-3ac2-4bdd-9a21-846926ea5320")
 		)
 		(pin "10"
-			(uuid "4098351b-bbec-437c-9d82-db6f63cb7737")
+			(uuid "4098351b-bbec-437c-9d82-db6f63cb7739")
 		)
 		(pin "1"
-			(uuid "1b7bb50b-f0ac-4a61-9eeb-b6b4ceb66aaf")
+			(uuid "1b7bb50b-f0ac-4a61-9eeb-b6b4ceb66ab1")
 		)
 		(pin "9"
-			(uuid "b1f441f3-c4c9-46e5-be95-fb7d4df03fb0")
+			(uuid "b1f441f3-c4c9-46e5-be95-fb7d4df03fb2")
 		)
 		(pin "8"
-			(uuid "c8ca806c-07f2-45c2-9e01-b48075e8ca9c")
+			(uuid "c8ca806c-07f2-45c2-9e01-b48075e8ca9e")
 		)
 		(pin "4"
-			(uuid "bd8928ef-6ab2-49fd-b2c1-525e0af23153")
+			(uuid "bd8928ef-6ab2-49fd-b2c1-525e0af23155")
 		)
 		(pin "13"
-			(uuid "0271ee20-5e0a-4b78-840b-6571deef24c3")
+			(uuid "0271ee20-5e0a-4b78-840b-6571deef24c5")
 		)
 		(pin "11"
-			(uuid "34f30cd1-63de-434b-aa46-45846ac660d9")
+			(uuid "34f30cd1-63de-434b-aa46-45846ac660db")
 		)
 		(pin "7"
-			(uuid "0b1e1021-aa6c-4337-b94e-c511d7cbaa60")
+			(uuid "0b1e1021-aa6c-4337-b94e-c511d7cbaa62")
 		)
 		(pin "12"
-			(uuid "b7a13976-f70c-40ae-b073-addebeb74e65")
+			(uuid "b7a13976-f70c-40ae-b073-addebeb74e67")
 		)
 		(pin "3"
-			(uuid "61f69617-0b43-44f4-ab08-272e2077d4a7")
+			(uuid "61f69617-0b43-44f4-ab08-272e2077d4a9")
 		)
 		(pin "14"
-			(uuid "b4fcd9de-02be-4604-96eb-1cc88581eb15")
+			(uuid "b4fcd9de-02be-4604-96eb-1cc88581eb17")
 		)
 		(pin "5"
-			(uuid "0cdbf258-9920-4674-8d6f-890e1cc5847a")
+			(uuid "0cdbf258-9920-4674-8d6f-890e1cc5847c")
 		)
 		(instances
 			(project "jetson-orin-baseboard"
@@ -36139,7 +36139,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "JetsonCarrier:TP_SMD_0.75mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 377.19 203.2 0)
 			(hide yes)
 			(show_name no)
