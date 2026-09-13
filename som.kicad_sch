@@ -27462,7 +27462,8 @@
 	)
 	(symbol
 		(lib_id "JetsonCarrier:SW_KMR211NGLFS_SMD")
-		(at 113.03 165.1 270)
+		(at 113.03 175.26 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27483,7 +27484,7 @@
 			)
 		)
 		(property "Value" "KMR211NGLFS"
-			(at 117.602 172.212 90)
+			(at 117.602 168.148 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27518,7 +27519,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 113.03 165.1 0)
+			(at 113.03 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27529,7 +27530,7 @@
 			)
 		)
 		(property "MPN" "C221676"
-			(at 123.0122 170.0784 0)
+			(at 123.0122 170.2816 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
