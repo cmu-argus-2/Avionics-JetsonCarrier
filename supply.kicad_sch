@@ -23597,7 +23597,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:DHWQFN-14-1EP_2.5x3mm_P0.5mm_EP1x1.5mm_ThermalVias"
+		(property "Footprint" "Package_DFN_QFN:DHWQFN-14-1EP_2.5x3mm_P0.5mm_EP1x1.5mm"
 			(at 245.11 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -23716,7 +23716,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:DHWQFN-14-1EP_2.5x3mm_P0.5mm_EP1x1.5mm_ThermalVias"
+		(property "Footprint" "Package_DFN_QFN:DHWQFN-14-1EP_2.5x3mm_P0.5mm_EP1x1.5mm"
 			(at 245.11 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -34684,7 +34684,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:DHWQFN-14-1EP_2.5x3mm_P0.5mm_EP1x1.5mm_ThermalVias"
+		(property "Footprint" "Package_DFN_QFN:DHWQFN-14-1EP_2.5x3mm_P0.5mm_EP1x1.5mm"
 			(at 183.515 54.61 0)
 			(hide yes)
 			(show_name no)

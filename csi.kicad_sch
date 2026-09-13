@@ -12866,7 +12866,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JetsonCarrier:VQFN-24-1EP_3.8x3.8x1.0mm_P0.5mm"
+		(property "Footprint" "Argus-IC:TQFN-24-1EP_4x4mm_P0.5mm_EP2.3x2.3mm"
 			(at 106.68 66.04 0)
 			(hide yes)
 			(show_name no)
