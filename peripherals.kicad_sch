@@ -7233,7 +7233,7 @@
 		(uuid "0e5bdc7f-3dc3-429e-b5d7-082adba05d5e")
 	)
 	(junction
-		(at 92.71 144.145)
+		(at 55.245 172.085)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "121eb8a9-ca4f-44b3-bace-2ecf3168b0a0")
@@ -7666,6 +7666,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.785 164.465) (xy 42.545 164.465)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0508d0bc-c8a8-4261-9986-baeaf33bb143")
+	)
+	(wire
+		(pts
 			(xy 304.8 132.08) (xy 322.58 132.08)
 		)
 		(stroke
@@ -7706,7 +7716,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 131.445) (xy 95.25 131.445)
+			(xy 55.245 159.385) (xy 57.785 159.385)
 		)
 		(stroke
 			(width 0)
@@ -7763,6 +7773,16 @@
 			(type default)
 		)
 		(uuid "0e4a5aab-7f87-4780-80e6-889bf7e59562")
+	)
+	(wire
+		(pts
+			(xy 67.31 139.065) (xy 82.55 139.065)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e5bcc8e-4627-4424-9880-596048b877f6")
 	)
 	(wire
 		(pts
@@ -7986,6 +8006,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.785 167.005) (xy 42.545 167.005)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24bd9ad5-685d-4a4d-8260-a5e924374f62")
+	)
+	(wire
+		(pts
 			(xy 322.58 91.44) (xy 304.8 91.44)
 		)
 		(stroke
@@ -8193,16 +8223,6 @@
 			(type default)
 		)
 		(uuid "3bd030e9-b41a-4f0f-b4fe-11ee101ffb64")
-	)
-	(wire
-		(pts
-			(xy 67.31 136.525) (xy 95.25 136.525)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d55f075-2ecd-44bc-9634-36562205eb8d")
 	)
 	(wire
 		(pts
@@ -8586,7 +8606,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 144.145) (xy 92.71 145.415)
+			(xy 55.245 172.085) (xy 55.245 173.355)
 		)
 		(stroke
 			(width 0)
@@ -8726,7 +8746,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 144.145) (xy 100.33 144.145)
+			(xy 55.245 172.085) (xy 62.865 172.085)
 		)
 		(stroke
 			(width 0)
@@ -8813,16 +8833,6 @@
 			(type default)
 		)
 		(uuid "7741cec1-7630-4595-b568-6c3a109ebc89")
-	)
-	(wire
-		(pts
-			(xy 67.31 139.065) (xy 95.25 139.065)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79afeccb-d1d7-449c-9594-f39a492e5a41")
 	)
 	(wire
 		(pts
@@ -9106,7 +9116,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 130.175) (xy 90.17 133.985)
+			(xy 52.705 158.115) (xy 52.705 161.925)
 		)
 		(stroke
 			(width 0)
@@ -9196,7 +9206,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 133.985) (xy 95.25 133.985)
+			(xy 52.705 161.925) (xy 57.785 161.925)
 		)
 		(stroke
 			(width 0)
@@ -9546,7 +9556,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 131.445) (xy 92.71 144.145)
+			(xy 55.245 159.385) (xy 55.245 172.085)
 		)
 		(stroke
 			(width 0)
@@ -9663,6 +9673,16 @@
 			(type default)
 		)
 		(uuid "e4f33dc3-608b-419e-986d-ba2e3d676426")
+	)
+	(wire
+		(pts
+			(xy 67.31 136.525) (xy 82.55 136.525)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e67e99ca-1ce7-4431-9635-7ba6638d7c5d")
 	)
 	(wire
 		(pts
@@ -10065,7 +10085,7 @@
 		(uuid "2b643878-1d4a-4d05-b87c-dff49c36b24e")
 	)
 	(label "FAN_TACH_5V"
-		(at 85.09 136.525 180)
+		(at 82.55 139.065 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10225,7 +10245,7 @@
 		(uuid "9f5097ea-dc42-4576-8502-52a2bb20489c")
 	)
 	(label "FAN_PWM_5V"
-		(at 85.09 139.065 180)
+		(at 82.55 136.525 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10283,6 +10303,16 @@
 			(justify right bottom)
 		)
 		(uuid "cb2f4f3c-1ed8-4551-8933-c9f5b9714c02")
+	)
+	(label "FAN_PWM_5V"
+		(at 42.545 167.005 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d894afeb-4995-4c1c-ad4f-00b01dd3c9fb")
 	)
 	(label "Pin_54"
 		(at 197.485 144.78 0)
@@ -10354,6 +10384,16 @@
 		)
 		(uuid "f6d4ef3b-f739-46c0-a58e-2b3aab559b13")
 	)
+	(label "FAN_TACH_5V"
+		(at 42.545 164.465 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f8354710-ae76-42ac-adde-c9b09db2ac86")
+	)
 	(label "Pin_43"
 		(at 184.785 132.08 180)
 		(effects
@@ -10389,7 +10429,7 @@
 	)
 	(global_label "FAN_TACH"
 		(shape output)
-		(at 44.45 136.525 180)
+		(at 44.45 139.065 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10399,7 +10439,7 @@
 		)
 		(uuid "0f260174-27fc-4102-8e06-3d6a11af6078")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 32.905 136.6044 0)
+			(at 32.905 138.9856 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10640,7 +10680,7 @@
 	)
 	(global_label "FAN_PWM"
 		(shape input)
-		(at 44.45 139.065 180)
+		(at 44.45 136.525 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10650,7 +10690,7 @@
 		)
 		(uuid "7801fff1-c12a-41a0-9aae-5672864275fe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 33.3888 139.1444 0)
+			(at 33.3888 136.4456 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11274,7 +11314,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 90.17 130.175 0)
+		(at 52.705 158.115 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11284,7 +11324,7 @@
 		(dnp no)
 		(uuid "09eabe89-d470-444b-85f4-3ed7e59be238")
 		(property "Reference" "#PWR0168"
-			(at 90.17 133.985 0)
+			(at 52.705 161.925 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11296,7 +11336,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 92.202 126.365 0)
+			(at 54.737 154.305 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11307,7 +11347,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 130.175 0)
+			(at 52.705 158.115 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11318,7 +11358,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 130.175 0)
+			(at 52.705 158.115 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11329,7 +11369,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 90.17 130.175 0)
+			(at 52.705 158.115 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15545,7 +15585,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_01x04_MountingPin")
-		(at 100.33 133.985 0)
+		(at 62.865 161.925 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15555,7 +15595,7 @@
 		(dnp no)
 		(uuid "b8423c8e-b175-4846-919a-aede09db3b9d")
 		(property "Reference" "J12"
-			(at 98.552 128.905 0)
+			(at 61.087 156.845 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15567,7 +15607,7 @@
 			)
 		)
 		(property "Value" "0533980471"
-			(at 103.886 141.351 90)
+			(at 66.421 169.291 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15579,7 +15619,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53398-0471_1x04-1MP_P1.25mm_Vertical"
-			(at 100.33 133.985 0)
+			(at 62.865 161.925 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15590,7 +15630,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 133.985 0)
+			(at 62.865 161.925 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15601,7 +15641,7 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 100.33 133.985 0)
+			(at 62.865 161.925 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15612,7 +15652,7 @@
 			)
 		)
 		(property "MPN" "C225106"
-			(at 103.378 141.097 90)
+			(at 65.913 169.037 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17123,7 +17163,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 92.71 145.415 0)
+		(at 55.245 173.355 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17133,7 +17173,7 @@
 		(dnp no)
 		(uuid "fa9e7126-4fe3-416f-9a4e-44f7e1ac64c3")
 		(property "Reference" "#PWR0169"
-			(at 92.71 151.765 0)
+			(at 55.245 179.705 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17145,7 +17185,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 90.678 149.225 0)
+			(at 53.213 177.165 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17156,7 +17196,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 145.415 0)
+			(at 55.245 173.355 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17167,7 +17207,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 145.415 0)
+			(at 55.245 173.355 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17178,7 +17218,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 92.71 145.415 0)
+			(at 55.245 173.355 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17189,7 +17229,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 101.6 153.035 0)
+			(at 64.135 180.975 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17202,7 +17242,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 101.6 155.575 0)
+			(at 64.135 183.515 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

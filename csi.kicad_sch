@@ -10530,7 +10530,7 @@
 		(uuid "1bb92d4a-461d-4105-8b7e-19c5f5f77c61")
 	)
 	(label "VSYNC_CAM0_3V3"
-		(at 382.27 198.12 180)
+		(at 382.27 195.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10820,7 +10820,7 @@
 		(uuid "9c89d458-a2c1-45d8-a8d2-da45f05cafd6")
 	)
 	(label "VSYNC_CAM1_3V3"
-		(at 382.27 195.58 180)
+		(at 382.27 198.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10830,7 +10830,7 @@
 		(uuid "9edf0aaf-b428-4ff9-acf1-2a6fe751a48a")
 	)
 	(label "VSYNC_CAM3_3V3"
-		(at 382.27 227.33 180)
+		(at 382.27 229.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10980,7 +10980,7 @@
 		(uuid "d31e7e9f-8714-4e42-bc9d-b7fdf44a2a5e")
 	)
 	(label "VSYNC_CAM2_3V3"
-		(at 382.27 229.87 180)
+		(at 382.27 227.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11111,7 +11111,7 @@
 	)
 	(global_label "VSYNC_CAM0"
 		(shape input)
-		(at 341.63 198.12 180)
+		(at 341.63 195.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11121,7 +11121,7 @@
 		)
 		(uuid "165e2fdd-2f6a-478a-85f9-83893b547fe0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 327.2426 198.1994 0)
+			(at 327.2426 195.5006 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11201,7 +11201,7 @@
 	)
 	(global_label "VSYNC_CAM2"
 		(shape input)
-		(at 341.63 229.87 180)
+		(at 341.63 227.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11211,7 +11211,7 @@
 		)
 		(uuid "1fa9fe11-bb0a-41c8-b9c7-9ad484eb3d3c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 327.2426 229.9494 0)
+			(at 327.2426 227.2506 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11247,7 +11247,7 @@
 	)
 	(global_label "VSYNC_CAM3"
 		(shape input)
-		(at 341.63 227.33 180)
+		(at 341.63 229.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11257,7 +11257,7 @@
 		)
 		(uuid "2ce25e5e-13be-48aa-a292-95b7e19dc026")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 327.2426 227.4094 0)
+			(at 327.2426 229.7906 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11659,7 +11659,7 @@
 	)
 	(global_label "VSYNC_CAM1"
 		(shape input)
-		(at 341.63 195.58 180)
+		(at 341.63 198.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11669,7 +11669,7 @@
 		)
 		(uuid "92514617-fde9-47c0-9316-f30e580b6841")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 327.2426 195.6594 0)
+			(at 327.2426 198.0406 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

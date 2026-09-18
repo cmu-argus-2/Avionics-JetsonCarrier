@@ -23292,7 +23292,7 @@
 		(uuid "07c9493a-7e34-4c64-a0b5-7253c1234a75")
 	)
 	(label "DEBUG_TXD_1V8"
-		(at 45.72 260.35 0)
+		(at 45.72 257.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -23322,7 +23322,7 @@
 		(uuid "871ef1e4-637c-4e10-a4d3-a57e43bbfec1")
 	)
 	(label "DEBUG_RXD_1V8"
-		(at 45.72 257.81 0)
+		(at 45.72 260.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -25084,7 +25084,7 @@
 	)
 	(global_label "DEBUG_TXD"
 		(shape output)
-		(at 88.9 260.35 0)
+		(at 88.9 257.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -25093,7 +25093,7 @@
 		)
 		(uuid "b8dc9c3c-52dc-4c82-b1af-10db5ae6d73d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.87 260.35 0)
+			(at 102.87 257.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25373,7 +25373,7 @@
 	)
 	(global_label "DEBUG_RXD"
 		(shape input)
-		(at 88.9 257.81 0)
+		(at 88.9 260.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -25382,7 +25382,7 @@
 		)
 		(uuid "d54f5429-3e4c-4091-824e-420b3c9b0e0c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.87 257.81 0)
+			(at 102.87 260.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
