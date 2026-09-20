@@ -24,6 +24,11 @@
 	(constraint diff_pair_uncoupled (max 3.0mm))
 )
 
+(rule "usb_2.0_zone_clearance"
+    (condition "A.NetClass == '90Ohm-diff_USB_2.0' && A.Type == 'Track' && B.Type == 'Zone'")
+    (constraint clearance (min 0.7mm))
+)
+
 #---------------------- USB SS (85 Ohm) ----------------------
 (rule "usb_3.0_inner"
 	(condition "A.NetClass == '85Ohm-diff_USB_SS' && A.Layer != 'F.Cu' && A.Layer != 'B.Cu'")
@@ -41,6 +46,11 @@
 (rule "usb_3.0_clearance"
 	(condition "A.NetClass == '85Ohm-diff_USB_SS' && !AB.isCoupledDiffPair() && A.Type == 'Track' && B.Type == 'Track'")
 	(constraint clearance (min 0.7mm)) 
+)
+
+(rule "usb_3.0_zone_clearance"
+    (condition "A.NetClass == '85Ohm-diff_USB_SS' && A.Type == 'Track' && B.Type == 'Zone'")
+    (constraint clearance (min 0.7mm))
 )
 
 #--------------------- HDMI/DP (100 Ohm) ----------------------
@@ -80,6 +90,12 @@
 	(condition "A.NetClass == '90Ohm-diff_CSI' && !AB.isCoupledDiffPair() && A.Type == 'Track' && B.Type == 'Track'")
 	(constraint clearance (min 0.7mm)) 
 )
+
+(rule "csi_zone_clearance"
+    (condition "A.NetClass == '90Ohm-diff_CSI' && A.Type == 'Track' && B.Type == 'Zone'")
+    (constraint clearance (min 0.7mm))
+)
+
 
 #----------------------- PCIe (85 Ohm) -----------------------
 (rule "pcie_inner"
