@@ -23113,7 +23113,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Color" "Green"
+		(property "Color" "Red"
 			(at 91.059 204.47 90)
 			(show_name no)
 			(do_not_autoplace no)
